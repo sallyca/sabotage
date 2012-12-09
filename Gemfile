@@ -28,7 +28,10 @@ gem 'sass-rails', "  ~> 3.1.0"
 
 gem 'jquery-rails'
 gem 'haml'
-gem 'pg'
+group :production do
+  gem 'thin'
+  gem 'pg'
+end
 
 
 group :test, :development do

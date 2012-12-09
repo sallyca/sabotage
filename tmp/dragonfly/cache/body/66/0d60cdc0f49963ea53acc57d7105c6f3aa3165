@@ -1,0 +1,29 @@
+/* line 4, /Users/macbook/Sites/bookmate/app/assets/stylesheets/stickers.css.scss */
+.sticker-back {
+  height: 200px;
+  width: 250px;
+  border: 1px solid #999;
+  background-color: #ffbbea;
+  margin: 10px;
+}
+
+/* line 12, /Users/macbook/Sites/bookmate/app/assets/stylesheets/stickers.css.scss */
+#new_sticker_form {
+  width: 500px;
+  height: 500px;
+}
+
+/* line 17, /Users/macbook/Sites/bookmate/app/assets/stylesheets/stickers.css.scss */
+.color-picker {
+  background-image: url("/assets/color.png");
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+/* line 24, /Users/macbook/Sites/bookmate/app/assets/stylesheets/stickers.css.scss */
+#sticker-quote-complete {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}

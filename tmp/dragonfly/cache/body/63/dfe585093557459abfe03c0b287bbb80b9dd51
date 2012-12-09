@@ -1,0 +1,22 @@
+/* line 4, /Users/macbook/Sites/bookmate/app/assets/stylesheets/users.css.scss */
+.visual {
+  background: url(/assets/psycho.jpg) no-repeat center top;
+  width: 604px;
+  height: 206px;
+}
+
+/* line 10, /Users/macbook/Sites/bookmate/app/assets/stylesheets/users.css.scss */
+.left-menu {
+  float: left;
+  width: 230px;
+}
+/* line 13, /Users/macbook/Sites/bookmate/app/assets/stylesheets/users.css.scss */
+.left-menu .avatar {
+  border: 1px solid #ccc;
+}
+
+/* line 18, /Users/macbook/Sites/bookmate/app/assets/stylesheets/users.css.scss */
+.right-content {
+  float: right;
+  width: 550px;
+}

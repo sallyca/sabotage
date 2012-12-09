@@ -1,0 +1,11 @@
+(function() {
+
+  jQuery(function() {
+    return $('#new-sticker').fancybox({
+      autoDimensions: false,
+      width: 630,
+      autoDimensions: true
+    });
+  });
+
+}).call(this);

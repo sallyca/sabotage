@@ -1,0 +1,105 @@
+/* line 1, /Users/macbook/Sites/bookmate/app/assets/stylesheets/layout/_signin_or_signup_bar.css.scss */
+#signin_or_signup_bar {
+  float: right;
+  position: relative;
+  top: -3px;
+}
+/* line 6, /Users/macbook/Sites/bookmate/app/assets/stylesheets/layout/_signin_or_signup_bar.css.scss */
+#signin_or_signup_bar .top {
+  width: 248px;
+  position: relative;
+  background-color: #f5f5f5;
+  border: 1px solid #d5d5d5;
+  border-top: none;
+  z-index: 10;
+}
+/* line 15, /Users/macbook/Sites/bookmate/app/assets/stylesheets/layout/_signin_or_signup_bar.css.scss */
+#signin_or_signup_bar .top .mini-form {
+  display: none;
+  padding: 10px;
+  padding-top: 13px;
+  font-size: 12px;
+}
+/* line 21, /Users/macbook/Sites/bookmate/app/assets/stylesheets/layout/_signin_or_signup_bar.css.scss */
+#signin_or_signup_bar .top .mini-form .field {
+  min-height: 0px;
+  margin-bottom: 4px;
+}
+/* line 25, /Users/macbook/Sites/bookmate/app/assets/stylesheets/layout/_signin_or_signup_bar.css.scss */
+#signin_or_signup_bar .top .mini-form .field label {
+  color: #7d7d7d;
+  vertical-align: center;
+  font-size: 11px;
+  padding: 0;
+  margin: 0;
+}
+/* line 34, /Users/macbook/Sites/bookmate/app/assets/stylesheets/layout/_signin_or_signup_bar.css.scss */
+#signin_or_signup_bar .top .mini-form .field input {
+  vertical-align: center;
+}
+/* line 41, /Users/macbook/Sites/bookmate/app/assets/stylesheets/layout/_signin_or_signup_bar.css.scss */
+#signin_or_signup_bar .top .mini-form .field.text label {
+  width: 84px;
+}
+/* line 48, /Users/macbook/Sites/bookmate/app/assets/stylesheets/layout/_signin_or_signup_bar.css.scss */
+#signin_or_signup_bar .top .mini-form .field.check label {
+  width: 100px;
+  vertical-align: top;
+}
+/* line 53, /Users/macbook/Sites/bookmate/app/assets/stylesheets/layout/_signin_or_signup_bar.css.scss */
+#signin_or_signup_bar .top .mini-form .field.check input {
+  margin: 0 5px 0 88px;
+}
+/* line 60, /Users/macbook/Sites/bookmate/app/assets/stylesheets/layout/_signin_or_signup_bar.css.scss */
+#signin_or_signup_bar .top .mini-form .field.text input {
+  padding: 4px;
+  margin: 0px;
+  width: 130px;
+}
+/* line 68, /Users/macbook/Sites/bookmate/app/assets/stylesheets/layout/_signin_or_signup_bar.css.scss */
+#signin_or_signup_bar .top .mini-form .oauth {
+  text-align: right;
+  color: #7d7d7d;
+  vertical-align: center;
+  font-size: 11px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 5px;
+}
+/* line 77, /Users/macbook/Sites/bookmate/app/assets/stylesheets/layout/_signin_or_signup_bar.css.scss */
+#signin_or_signup_bar .top .mini-form .oauth .links {
+  display: inline;
+  width: 130px;
+  margin-left: 15px;
+}
+/* line 83, /Users/macbook/Sites/bookmate/app/assets/stylesheets/layout/_signin_or_signup_bar.css.scss */
+#signin_or_signup_bar .top .mini-form .actions {
+  text-align: right;
+  border-top: none;
+  border-bottom: 1px solid #d5d5d5;
+  margin: 0;
+  margin-bottom: 5px;
+  padding: 3px 0 15px 0;
+}
+/* line 91, /Users/macbook/Sites/bookmate/app/assets/stylesheets/layout/_signin_or_signup_bar.css.scss */
+#signin_or_signup_bar .top .mini-form .actions .btn {
+  vertical-align: middle;
+  margin-bottom: 0;
+}
+/* line 99, /Users/macbook/Sites/bookmate/app/assets/stylesheets/layout/_signin_or_signup_bar.css.scss */
+#signin_or_signup_bar .bottom {
+  margin-top: -1px;
+  padding-top: 1px;
+  position: relative;
+  float: right;
+  background-color: #f5f5f5;
+  border: 1px solid #d5d5d5;
+  border-top: none;
+  text-align: right;
+  z-index: 20;
+  padding: 8px;
+}
+/* line 112, /Users/macbook/Sites/bookmate/app/assets/stylesheets/layout/_signin_or_signup_bar.css.scss */
+#signin_or_signup_bar .bottom a {
+  color: #383838;
+}

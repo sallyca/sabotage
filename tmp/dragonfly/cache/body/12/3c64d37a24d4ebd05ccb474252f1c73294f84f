@@ -1,0 +1,102 @@
+/* line 4, /Users/macbook/Sites/bookmate/app/assets/stylesheets/quotes.css.scss */
+.left-content {
+  float: left;
+}
+
+/* line 8, /Users/macbook/Sites/bookmate/app/assets/stylesheets/quotes.css.scss */
+.right-content {
+  float: right;
+}
+
+/* line 12, /Users/macbook/Sites/bookmate/app/assets/stylesheets/quotes.css.scss */
+#add-quote {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 16px;
+  float: right;
+  color: white;
+  text-decoration: none;
+}
+
+/* line 23, /Users/macbook/Sites/bookmate/app/assets/stylesheets/quotes.css.scss */
+h1.quote {
+  font-family: Georgia, serif;
+  font-size: 24px;
+}
+
+/* line 28, /Users/macbook/Sites/bookmate/app/assets/stylesheets/quotes.css.scss */
+.actions input {
+  font-family: Georgia, serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+/* line 37, /Users/macbook/Sites/bookmate/app/assets/stylesheets/quotes.css.scss */
+.new_quote
+.field
+label {
+  font-family: Georgia, serif;
+}
+
+/* line 41, /Users/macbook/Sites/bookmate/app/assets/stylesheets/quotes.css.scss */
+ul.ui-autocomplete {
+  position: absolute;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: solid 1px #999;
+  cursor: default;
+}
+/* line 48, /Users/macbook/Sites/bookmate/app/assets/stylesheets/quotes.css.scss */
+ul.ui-autocomplete li {
+  background-color: #FFF;
+  border-top: solid 1px #DDD;
+  margin: 0;
+  padding: 0;
+}
+/* line 53, /Users/macbook/Sites/bookmate/app/assets/stylesheets/quotes.css.scss */
+ul.ui-autocomplete li a {
+  color: #000;
+  display: block;
+  padding: 3px;
+}
+/* line 58, /Users/macbook/Sites/bookmate/app/assets/stylesheets/quotes.css.scss */
+ul.ui-autocomplete li a.ui-state-hover, ul.ui-autocomplete li a.ui-state-active {
+  background-color: #FFFCB2;
+}
+
+/* line 65, /Users/macbook/Sites/bookmate/app/assets/stylesheets/quotes.css.scss */
+.quote-list .text {
+  font-family: Georgia, serif;
+  margin: 0px 10px 5px;
+}
+/* line 69, /Users/macbook/Sites/bookmate/app/assets/stylesheets/quotes.css.scss */
+.quote-list .bottom {
+  margin: 5px 10px 25px;
+}
+/* line 71, /Users/macbook/Sites/bookmate/app/assets/stylesheets/quotes.css.scss */
+.quote-list .bottom .likes {
+  float: left;
+}
+/* line 73, /Users/macbook/Sites/bookmate/app/assets/stylesheets/quotes.css.scss */
+.quote-list .bottom .likes a.like-quote {
+  background: url("/assets/like.gif") 0 0;
+  display: block;
+  width: 10px;
+  height: 10px;
+  opacity: 0.4;
+}
+/* line 79, /Users/macbook/Sites/bookmate/app/assets/stylesheets/quotes.css.scss */
+.quote-list .bottom .likes a.like-quote:hover {
+  opacity: 1;
+}
+/* line 84, /Users/macbook/Sites/bookmate/app/assets/stylesheets/quotes.css.scss */
+.quote-list .bottom .tags {
+  float: left;
+  margin: 0 10px;
+  color: grey;
+  font-family: palatino;
+}

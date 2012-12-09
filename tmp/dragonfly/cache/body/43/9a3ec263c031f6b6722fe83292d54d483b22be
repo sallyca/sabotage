@@ -1,0 +1,30 @@
+(function() {
+
+  jQuery(function() {
+    var Draw, i;
+    $('#new-sticker').fancybox({
+      autoDimensions: false,
+      width: 630,
+      autoDimensions: true
+    });
+    $("#sticker-quote-complete").autocomplete({
+      source: $("#sticker-quote-complete").data('autocomplete-source')
+    });
+    i = 1;
+    $("#create-sticker").click(e)(function() {
+      $("<div />", {
+        "class": "sticker-back",
+        id: "sticker" + i
+      }).append($("<label />", {
+        id: "name" + i
+      }).text($("#sticker-quote-complete").text())).appendTo("#sticker-board");
+      i++;
+      return $('#new_sticker').submit();
+    });
+    return Draw = function(scope) {
+      var new_sticker;
+      return new_sticker = scope.find("#new-sticker");
+    };
+  });
+
+}).call(this);

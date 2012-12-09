@@ -1,0 +1,82 @@
+/* line 4, /Users/macbook/Sites/bookmate/app/assets/stylesheets/quotes.css.scss */
+.left-content {
+  float: left;
+}
+
+/* line 8, /Users/macbook/Sites/bookmate/app/assets/stylesheets/quotes.css.scss */
+.right-content {
+  float: right;
+}
+
+/* line 12, /Users/macbook/Sites/bookmate/app/assets/stylesheets/quotes.css.scss */
+#add-quote {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATQAAAA0CAYAAAAE9sQrAAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2lDQ1BQaG90b3Nob3AgSUNDIHByb2ZpbGUAAHjanVNnVFPpFj333vRCS4iAlEtvUhUIIFJCi4AUkSYqIQkQSoghodkVUcERRUUEG8igiAOOjoCMFVEsDIoK2AfkIaKOg6OIisr74Xuja9a89%2BbN%2FrXXPues852zzwfACAyWSDNRNYAMqUIeEeCDx8TG4eQuQIEKJHAAEAizZCFz%2FSMBAPh%2BPDwrIsAHvgABeNMLCADATZvAMByH%2Fw%2FqQplcAYCEAcB0kThLCIAUAEB6jkKmAEBGAYCdmCZTAKAEAGDLY2LjAFAtAGAnf%2BbTAICd%2BJl7AQBblCEVAaCRACATZYhEAGg7AKzPVopFAFgwABRmS8Q5ANgtADBJV2ZIALC3AMDOEAuyAAgMADBRiIUpAAR7AGDIIyN4AISZABRG8lc88SuuEOcqAAB4mbI8uSQ5RYFbCC1xB1dXLh4ozkkXKxQ2YQJhmkAuwnmZGTKBNA%2Fg88wAAKCRFRHgg%2FP9eM4Ors7ONo62Dl8t6r8G%2FyJiYuP%2B5c%2BrcEAAAOF0ftH%2BLC%2BzGoA7BoBt%2FqIl7gRoXgugdfeLZrIPQLUAoOnaV%2FNw%2BH48PEWhkLnZ2eXk5NhKxEJbYcpXff5nwl%2FAV%2F1s%2BX48%2FPf14L7iJIEyXYFHBPjgwsz0TKUcz5IJhGLc5o9H%2FLcL%2F%2Fwd0yLESWK5WCoU41EScY5EmozzMqUiiUKSKcUl0v9k4t8s%2BwM%2B3zUAsGo%2BAXuRLahdYwP2SycQWHTA4vcAAPK7b8HUKAgDgGiD4c93%2F%2B8%2F%2FUegJQCAZkmScQAAXkQkLlTKsz%2FHCAAARKCBKrBBG%2FTBGCzABhzBBdzBC%2FxgNoRCJMTCQhBCCmSAHHJgKayCQiiGzbAdKmAv1EAdNMBRaIaTcA4uwlW4Dj1wD%2FphCJ7BKLyBCQRByAgTYSHaiAFiilgjjggXmYX4IcFIBBKLJCDJiBRRIkuRNUgxUopUIFVIHfI9cgI5h1xGupE7yAAygvyGvEcxlIGyUT3UDLVDuag3GoRGogvQZHQxmo8WoJvQcrQaPYw2oefQq2gP2o8%2BQ8cwwOgYBzPEbDAuxsNCsTgsCZNjy7EirAyrxhqwVqwDu4n1Y8%2BxdwQSgUXACTYEd0IgYR5BSFhMWE7YSKggHCQ0EdoJNwkDhFHCJyKTqEu0JroR%2BcQYYjIxh1hILCPWEo8TLxB7iEPENyQSiUMyJ7mQAkmxpFTSEtJG0m5SI%2BksqZs0SBojk8naZGuyBzmULCAryIXkneTD5DPkG%2BQh8lsKnWJAcaT4U%2BIoUspqShnlEOU05QZlmDJBVaOaUt2ooVQRNY9aQq2htlKvUYeoEzR1mjnNgxZJS6WtopXTGmgXaPdpr%2Bh0uhHdlR5Ol9BX0svpR%2BiX6AP0dwwNhhWDx4hnKBmbGAcYZxl3GK%2BYTKYZ04sZx1QwNzHrmOeZD5lvVVgqtip8FZHKCpVKlSaVGyovVKmqpqreqgtV81XLVI%2BpXlN9rkZVM1PjqQnUlqtVqp1Q61MbU2epO6iHqmeob1Q%2FpH5Z%2FYkGWcNMw09DpFGgsV%2FjvMYgC2MZs3gsIWsNq4Z1gTXEJrHN2Xx2KruY%2FR27iz2qqaE5QzNKM1ezUvOUZj8H45hx%2BJx0TgnnKKeX836K3hTvKeIpG6Y0TLkxZVxrqpaXllirSKtRq0frvTau7aedpr1Fu1n7gQ5Bx0onXCdHZ4%2FOBZ3nU9lT3acKpxZNPTr1ri6qa6UbobtEd79up%2B6Ynr5egJ5Mb6feeb3n%2Bhx9L%2F1U%2FW36p%2FVHDFgGswwkBtsMzhg8xTVxbzwdL8fb8VFDXcNAQ6VhlWGX4YSRudE8o9VGjUYPjGnGXOMk423GbcajJgYmISZLTepN7ppSTbmmKaY7TDtMx83MzaLN1pk1mz0x1zLnm%2Beb15vft2BaeFostqi2uGVJsuRaplnutrxuhVo5WaVYVVpds0atna0l1rutu6cRp7lOk06rntZnw7Dxtsm2qbcZsOXYBtuutm22fWFnYhdnt8Wuw%2B6TvZN9un2N%2FT0HDYfZDqsdWh1%2Bc7RyFDpWOt6azpzuP33F9JbpL2dYzxDP2DPjthPLKcRpnVOb00dnF2e5c4PziIuJS4LLLpc%2BLpsbxt3IveRKdPVxXeF60vWdm7Obwu2o26%2FuNu5p7ofcn8w0nymeWTNz0MPIQ%2BBR5dE%2FC5%2BVMGvfrH5PQ0%2BBZ7XnIy9jL5FXrdewt6V3qvdh7xc%2B9j5yn%2BM%2B4zw33jLeWV%2FMN8C3yLfLT8Nvnl%2BF30N%2FI%2F9k%2F3r%2F0QCngCUBZwOJgUGBWwL7%2BHp8Ib%2BOPzrbZfay2e1BjKC5QRVBj4KtguXBrSFoyOyQrSH355jOkc5pDoVQfujW0Adh5mGLw34MJ4WHhVeGP45wiFga0TGXNXfR3ENz30T6RJZE3ptnMU85ry1KNSo%2Bqi5qPNo3ujS6P8YuZlnM1VidWElsSxw5LiquNm5svt%2F87fOH4p3iC%2BN7F5gvyF1weaHOwvSFpxapLhIsOpZATIhOOJTwQRAqqBaMJfITdyWOCnnCHcJnIi%2FRNtGI2ENcKh5O8kgqTXqS7JG8NXkkxTOlLOW5hCepkLxMDUzdmzqeFpp2IG0yPTq9MYOSkZBxQqohTZO2Z%2Bpn5mZ2y6xlhbL%2BxW6Lty8elQfJa7OQrAVZLQq2QqboVFoo1yoHsmdlV2a%2FzYnKOZarnivN7cyzytuQN5zvn%2F%2FtEsIS4ZK2pYZLVy0dWOa9rGo5sjxxedsK4xUFK4ZWBqw8uIq2Km3VT6vtV5eufr0mek1rgV7ByoLBtQFr6wtVCuWFfevc1%2B1dT1gvWd%2B1YfqGnRs%2BFYmKrhTbF5cVf9go3HjlG4dvyr%2BZ3JS0qavEuWTPZtJm6ebeLZ5bDpaql%2BaXDm4N2dq0Dd9WtO319kXbL5fNKNu7g7ZDuaO%2FPLi8ZafJzs07P1SkVPRU%2BlQ27tLdtWHX%2BG7R7ht7vPY07NXbW7z3%2FT7JvttVAVVN1WbVZftJ%2B7P3P66Jqun4lvttXa1ObXHtxwPSA%2F0HIw6217nU1R3SPVRSj9Yr60cOxx%2B%2B%2Fp3vdy0NNg1VjZzG4iNwRHnk6fcJ3%2FceDTradox7rOEH0x92HWcdL2pCmvKaRptTmvtbYlu6T8w%2B0dbq3nr8R9sfD5w0PFl5SvNUyWna6YLTk2fyz4ydlZ19fi753GDborZ752PO32oPb%2B%2B6EHTh0kX%2Fi%2Bc7vDvOXPK4dPKy2%2BUTV7hXmq86X23qdOo8%2FpPTT8e7nLuarrlca7nuer21e2b36RueN87d9L158Rb%2F1tWeOT3dvfN6b%2FfF9%2FXfFt1%2Bcif9zsu72Xcn7q28T7xf9EDtQdlD3YfVP1v%2B3Njv3H9qwHeg89HcR%2FcGhYPP%2FpH1jw9DBY%2BZj8uGDYbrnjg%2BOTniP3L96fynQ89kzyaeF%2F6i%2FsuuFxYvfvjV69fO0ZjRoZfyl5O%2FbXyl%2FerA6xmv28bCxh6%2ByXgzMV70VvvtwXfcdx3vo98PT%2BR8IH8o%2F2j5sfVT0Kf7kxmTk%2F8EA5jz%2FGMzLdsAAAAgY0hSTQAAeiUAAICDAAD5%2FwAAgOkAAHUwAADqYAAAOpgAABdvkl%2FFRgAABSpJREFUeNrs3UtsVFUcx%2FHvuY%2BZodNAoSCRAKWpPKIiijEu1GgIiStjXLpSDKKJxgBLTVyY6IaFxoiJSILoCmOihoVoxIWggRhF44tXJbaFDWILdphp5957XMy9w5lS6qa1d5rfJznNdKbp4i6%2B%2BZ%2F7yBimZgB465flzOt8EuNvBm7BmGWIiMwkay8AZ7Hxl1RH3%2BP524eyT6YO1o3ef%2FOnPsoLnisFwfYVISwJLGUPSp6OtYjMrFoClQQuRobBOtSi6A0ql3fzwob%2BG4XN3CBmhj39W7ywuHddydJbAF%2FHV0RmSQycG4eTNUNSH9vKtr59adDsVEEzgMc7Z7YUivPevbfDslAlE5GcGI7h%2BFXD%2BFj1aZ5ZvQ9I3KiZ62L26le93rI1Z%2B4rJ4qZiOQyat9UPJILp1fz0qZzbtSClm0mBCxesXNtwdJlwCY6eCKSL10G1hYsvy9esRPYAdTTj6xxghaw4%2F3e0oZNpzZ3JOi8v4jkVQIcvupR%2FfXIrex6%2FCwQATZobjUhoO%2FurT2hxTDFdVERkVlmgJWh5VTP%2BqeAl9PGJdmW0wNCwuJD3cZqqykiuddtLISlB4EwndCSbELzgZAgXNUBWI1nIpJzHQBBuCoN2jgQu0ErYLzuwFoSBU1Eci4AMF43UABqgGk9h2aMh7U6fyYi7cEYL22b5wbNTxex9psi0l6yfhn3PjQPdO%2BZiLQdL20Y2YTWDFqioIlIewatOaFlUxqRdpwi0i6M85PWR58AiHWJU0Tahd%2BatmDi57G2nCLSfkFj8qDpKqeItKnrgpZoyykicyVomtBEZO4ETefQRGTuBE0TmogoaCIi%2BQqaeiYicyZoVhcFREQTmohI7oKmoomIJjQREQVNRGRmgqaiiYgmNBGR3AVNRRMRTWgiIprQRESmP2jWJknS%2BLIUEZHcs63fU5cFrTGWxdFI7LHIxJrSRCTnLfMNxNGI2zA3aJaxykAchIv8KNLREpFciwMfxioDzX6lQcvGsYSLA8fqC9fcaap1HS0RybV6yYeL%2FceAbNtp3Qkt4fD%2BQ9ETu54NhmvXMicikjcGonIBPtp%2FKA1ay4QWAzFHDwzazVsO1uf3PeKP1HTQRCSf280FJez53w5y9MBgs19g%2FUbr8IEQKFIbHU7uf%2FQx72oEkb5gQETyxRYDopvKcOCV1xg6OQRUgBoQZUHzmlEbOjnO0t5asu6Oe6g2opadcdPS0tKazZWUAqKbO%2BH4J2%2Fz6etfA5fToI0BsX9tR9qMWsD3n51nyfKave2ujVgLtUjn1ERkVs%2BZ2a4SydIyfPvhXvZu%2Fxj4G%2FgHqALjQJJNaFnUsrB5nPhikD9O%2FGiXLS%2FZvtU9%2BOmfWUBPE4jITPM9KPnYBUWSpZ3Ywe%2BO8MGLuzm052gasxFgNJ3OIsC6MQuAIlAGuoDudC2kb%2BNKHt72AD3r1zC%2FezGlzk4dbRGZUbXRUa5c%2Bos%2Ffz7N53uO0P%2FDADAMXErXiLPdvC5ohuzCQCNq89OwdaWvy0AJKKRbU8%2BZ7kREpkvjNrLGlctxGif8K8CVNGIj6essZvVs79j66FOjcpkk%2Fb2WjnVu0AInaIqaiExnzKzTHzdoo86qupMZEx59YsI%2FwSnkWPrPspiFmtBE5H%2Ba0OpO1NxVT1uVOAPZpEHKpi4%2FDV6Yrmwyy2KmoInITAYti1o2qdWdkMXuZDZV0Nz3s3D5Tsj8CVtNRU1EpjNm7tYzdsIWO6GDSW4m%2B68YTbxooJCJyGyEzU54b1L%2FAgAA%2F%2F8DAG3g69R3gXrUAAAAAElFTkSuQmCC);
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 16px;
+  float: right;
+}
+
+/* line 22, /Users/macbook/Sites/bookmate/app/assets/stylesheets/quotes.css.scss */
+h1.quote {
+  font-family: Georgia, serif;
+  font-size: 24px;
+}
+
+/* line 27, /Users/macbook/Sites/bookmate/app/assets/stylesheets/quotes.css.scss */
+.actions input {
+  font-family: Georgia, serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+/* line 36, /Users/macbook/Sites/bookmate/app/assets/stylesheets/quotes.css.scss */
+.new_quote
+.field
+label {
+  font-family: Georgia, serif;
+}
+
+/* line 40, /Users/macbook/Sites/bookmate/app/assets/stylesheets/quotes.css.scss */
+ul.ui-autocomplete {
+  position: absolute;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: solid 1px #999;
+  cursor: default;
+}
+/* line 47, /Users/macbook/Sites/bookmate/app/assets/stylesheets/quotes.css.scss */
+ul.ui-autocomplete li {
+  background-color: #FFF;
+  border-top: solid 1px #DDD;
+  margin: 0;
+  padding: 0;
+}
+/* line 52, /Users/macbook/Sites/bookmate/app/assets/stylesheets/quotes.css.scss */
+ul.ui-autocomplete li a {
+  color: #000;
+  display: block;
+  padding: 3px;
+}
+/* line 57, /Users/macbook/Sites/bookmate/app/assets/stylesheets/quotes.css.scss */
+ul.ui-autocomplete li a.ui-state-hover, ul.ui-autocomplete li a.ui-state-active {
+  background-color: #FFFCB2;
+}
+
+/* line 62, /Users/macbook/Sites/bookmate/app/assets/stylesheets/quotes.css.scss */
+td.quote {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* line 67, /Users/macbook/Sites/bookmate/app/assets/stylesheets/quotes.css.scss */
+td.tags {
+  float: right;
+  margin-bottom: 10px;
+  color: grey;
+  font-family: palatino;
+}

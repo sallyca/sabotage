@@ -1,0 +1,79 @@
+/* line 1, /Users/macbook/Sites/bookmate/app/assets/stylesheets/_global.scss */
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 6, /Users/macbook/Sites/bookmate/app/assets/stylesheets/_global.scss */
+.submit {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+/* line 11, /Users/macbook/Sites/bookmate/app/assets/stylesheets/_global.scss */
+#about > p {
+  font-size: 18px;
+  font-color: #FF3399;
+  margin-top: 20px;
+}
+
+/* line 16, /Users/macbook/Sites/bookmate/app/assets/stylesheets/_global.scss */
+.clearfix:before, .clearfix:after {
+  content: "&nbsp;";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+/* line 19, /Users/macbook/Sites/bookmate/app/assets/stylesheets/_global.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 20, /Users/macbook/Sites/bookmate/app/assets/stylesheets/_global.scss */
+.clearfix {
+  zoom: 1;
+}
+
+/* line 24, /Users/macbook/Sites/bookmate/app/assets/stylesheets/_global.scss */
+.red-dressed {
+  border: 1px solid #df0909;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  font-family: arial, helvetica, sans-serif;
+  padding: 10px 10px 10px 10px;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
+  font-weight: bold;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #f62b2b;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f62b2b), color-stop(100%, #d20202));
+  background-image: -webkit-linear-gradient(top, #f62b2b, #d20202);
+  background-image: -moz-linear-gradient(top, #f62b2b, #d20202);
+  background-image: -ms-linear-gradient(top, #f62b2b, #d20202);
+  background-image: -o-linear-gradient(top, #f62b2b, #d20202);
+  background-image: linear-gradient(top, #f62b2b, #d20202);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#f62b2b, endColorstr=#d20202);
+  padding: 5px 10px;
+}
+/* line 33, /Users/macbook/Sites/bookmate/app/assets/stylesheets/_global.scss */
+.red-dressed a {
+  text-decoration: none;
+  color: white;
+}
+
+/* line 39, /Users/macbook/Sites/bookmate/app/assets/stylesheets/_global.scss */
+.red-dressed:hover {
+  border: 1px solid #b30808;
+  background-color: #e40a0a;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e40a0a), color-stop(100%, #9f0202));
+  background-image: -webkit-linear-gradient(top, #e40a0a, #9f0202);
+  background-image: -moz-linear-gradient(top, #e40a0a, #9f0202);
+  background-image: -ms-linear-gradient(top, #e40a0a, #9f0202);
+  background-image: -o-linear-gradient(top, #e40a0a, #9f0202);
+  background-image: linear-gradient(top, #e40a0a, #9f0202);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#e40a0a, endColorstr=#9f0202);
+  color: white;
+  text-decoration: none;
+}

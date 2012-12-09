@@ -1,0 +1,19 @@
+(function() {
+
+  jQuery(function() {
+    var Draw;
+    $('#new-sticker').fancybox({
+      autoDimensions: false,
+      width: 630,
+      autoDimensions: true
+    });
+    $("#sticker-quote-complete").autocomplete({
+      source: $("#sticker-quote-complete").data('autocomplete-source')
+    });
+    return Draw = function(scope) {
+      var new_sticker;
+      return new_sticker = scope.find("#new-sticker");
+    };
+  });
+
+}).call(this);

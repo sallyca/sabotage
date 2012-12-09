@@ -1,0 +1,21 @@
+%h1
+  ="Откуда это всё"
+
+- @books.keys.sort.each do |starting_letter|
+  %br
+  %br
+  %h2=starting_letter
+  %table
+  
+  - @books[starting_letter].each do |book|
+    %tr
+      %td= link_to book.title, book
+      -if book.quotes!=nil
+        %td= link_to book.quotes.count, quotes_path(:book => book.id)
+
+    %br
+
+%br
+%br
+%br
+= link_to 'Добавить источник', new_book_path, {:class => "submit"}

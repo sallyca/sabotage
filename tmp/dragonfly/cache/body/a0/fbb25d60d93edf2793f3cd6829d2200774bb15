@@ -1,0 +1,61 @@
+/* line 4, /Users/macbook/Sites/bookmate/app/assets/stylesheets/quotes.css.scss */
+h1.quote {
+  font-family: Georgia, serif;
+  font-size: 24px;
+}
+
+/* line 9, /Users/macbook/Sites/bookmate/app/assets/stylesheets/quotes.css.scss */
+.actions input {
+  font-family: Georgia, serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+/* line 18, /Users/macbook/Sites/bookmate/app/assets/stylesheets/quotes.css.scss */
+.new_quote
+.field
+label {
+  font-family: Georgia, serif;
+}
+
+/* line 22, /Users/macbook/Sites/bookmate/app/assets/stylesheets/quotes.css.scss */
+ul.ui-autocomplete {
+  position: absolute;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: solid 1px #999;
+  cursor: default;
+}
+/* line 29, /Users/macbook/Sites/bookmate/app/assets/stylesheets/quotes.css.scss */
+ul.ui-autocomplete li {
+  background-color: #FFF;
+  border-top: solid 1px #DDD;
+  margin: 0;
+  padding: 0;
+}
+/* line 34, /Users/macbook/Sites/bookmate/app/assets/stylesheets/quotes.css.scss */
+ul.ui-autocomplete li a {
+  color: #000;
+  display: block;
+  padding: 3px;
+}
+/* line 39, /Users/macbook/Sites/bookmate/app/assets/stylesheets/quotes.css.scss */
+ul.ui-autocomplete li a.ui-state-hover, ul.ui-autocomplete li a.ui-state-active {
+  background-color: #FFFCB2;
+}
+
+/* line 44, /Users/macbook/Sites/bookmate/app/assets/stylesheets/quotes.css.scss */
+td.quote {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* line 49, /Users/macbook/Sites/bookmate/app/assets/stylesheets/quotes.css.scss */
+td.tags {
+  float: right;
+  margin-bottom: 10px;
+  color: grey;
+  font-family: palatino;
+}

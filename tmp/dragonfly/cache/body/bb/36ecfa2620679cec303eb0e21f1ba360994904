@@ -1,0 +1,41 @@
+/* line 1, /Users/macbook/Sites/bookmate/app/assets/stylesheets/layout/_header.css.scss */
+#header-site {
+  width: 830px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #d9d9d9;
+  color: black;
+  font-size: 18px;
+  height: 30px;
+  margin-bottom: 50px;
+  padding: 20px 25px;
+}
+
+/* line 13, /Users/macbook/Sites/bookmate/app/assets/stylesheets/layout/_header.css.scss */
+#header {
+  width: 830px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  height: 30px;
+  margin-bottom: 50px;
+  padding: 20px 25px;
+}
+
+/* line 23, /Users/macbook/Sites/bookmate/app/assets/stylesheets/layout/_header.css.scss */
+#header-site a {
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* line 29, /Users/macbook/Sites/bookmate/app/assets/stylesheets/layout/_header.css.scss */
+#header-site a:hover {
+  background-color: transparent;
+  color: #4ba7e2;
+}
+
+/* line 34, /Users/macbook/Sites/bookmate/app/assets/stylesheets/layout/_header.css.scss */
+.top-bar {
+  float: left;
+}

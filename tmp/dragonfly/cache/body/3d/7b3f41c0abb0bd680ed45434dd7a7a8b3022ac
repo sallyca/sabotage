@@ -1,0 +1,36 @@
+/* line 1, /Users/macbook/Sites/bookmate/app/assets/stylesheets/_global.scss */
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 6, /Users/macbook/Sites/bookmate/app/assets/stylesheets/_global.scss */
+.submit {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+/* line 11, /Users/macbook/Sites/bookmate/app/assets/stylesheets/_global.scss */
+#about > p {
+  font-size: 18px;
+  font-color: #FF3399;
+  margin-top: 20px;
+}
+
+/* line 16, /Users/macbook/Sites/bookmate/app/assets/stylesheets/_global.scss */
+.clearfix:before, .clearfix:after {
+  content: "&nbsp;";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+/* line 19, /Users/macbook/Sites/bookmate/app/assets/stylesheets/_global.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 20, /Users/macbook/Sites/bookmate/app/assets/stylesheets/_global.scss */
+.clearfix {
+  zoom: 1;
+}

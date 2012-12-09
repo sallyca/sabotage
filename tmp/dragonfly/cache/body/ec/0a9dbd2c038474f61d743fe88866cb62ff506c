@@ -1,0 +1,79 @@
+/* line 4, /Users/macbook/Sites/bookmate/app/assets/stylesheets/stickers.css.scss */
+.sticker-back {
+  height: 200px;
+  width: 250px;
+  border: 1px solid #999;
+  background-color: #ffbbea;
+  margin: 10px;
+  position: relative;
+}
+
+/* line 13, /Users/macbook/Sites/bookmate/app/assets/stylesheets/stickers.css.scss */
+#new_sticker_form {
+  width: 500px;
+  height: 500px;
+}
+
+/* line 18, /Users/macbook/Sites/bookmate/app/assets/stylesheets/stickers.css.scss */
+.color-picker {
+  background-image: url("/assets/color.png");
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+/* line 25, /Users/macbook/Sites/bookmate/app/assets/stylesheets/stickers.css.scss */
+#sticker-quote-complete {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
+/* line 35, /Users/macbook/Sites/bookmate/app/assets/stylesheets/stickers.css.scss */
+.izzyColor {
+  background-color: #ffbbea;
+  border: 0;
+}
+
+/* line 40, /Users/macbook/Sites/bookmate/app/assets/stylesheets/stickers.css.scss */
+.sticker {
+  float: left;
+}
+
+/* line 44, /Users/macbook/Sites/bookmate/app/assets/stylesheets/stickers.css.scss */
+.sticker-back .sticker-color {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 5px;
+}
+
+/* line 49, /Users/macbook/Sites/bookmate/app/assets/stylesheets/stickers.css.scss */
+.sticker-back .sticker-text {
+  font-family: Georgia, serif;
+  font-size: 15px;
+  padding: 15px;
+  float: left;
+  width: 200px;
+}
+
+/* line 57, /Users/macbook/Sites/bookmate/app/assets/stylesheets/stickers.css.scss */
+.sticker-back .trash {
+  background-image: url("/assets/icon_trash.png");
+  width: 8px;
+  height: 8px;
+  float: right;
+  padding: 5px;
+}
+
+/* line 65, /Users/macbook/Sites/bookmate/app/assets/stylesheets/stickers.css.scss */
+.sticker-back .trash a {
+  display: block;
+  width: 10px;
+  height: 10px;
+}
+
+/* line 71, /Users/macbook/Sites/bookmate/app/assets/stylesheets/stickers.css.scss */
+.green {
+  background-color: #40f6ab;
+}

@@ -1,0 +1,18 @@
+(function() {
+
+  jQuery(function() {
+    $("#book-notice").click(function() {
+      return $("#book-field-hidden").show();
+    });
+    $("#tag-notice").click(function() {
+      return $("#tag-field-hidden").show();
+    });
+    $("#quote_book_title").autocomplete({
+      source: $("#quote_book_title").data('autocomplete-source')
+    });
+    return $("#quote_tag_tokens").autocomplete({
+      source: $("#quote_tag_tokens").data('autocomplete-source')
+    });
+  });
+
+}).call(this);

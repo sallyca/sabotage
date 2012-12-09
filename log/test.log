@@ -1,0 +1,1814 @@
+
+
+Started GET "/books" for 127.0.0.1 at 2012-02-13 16:58:22 +0400
+  Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT "books".* FROM "books" [0m
+Rendered books/index.html.haml within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 98ms
+
+
+Started GET "/books" for 127.0.0.1 at 2012-02-13 16:59:04 +0400
+  Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.7ms)[0m  [1mSELECT "books".* FROM "books" [0m
+Rendered books/index.html.haml within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 102ms
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-13 16:59:04 +0400
+  Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.4ms)[0m  SELECT "quotes".* FROM "quotes" 
+Completed 200 OK in 19ms (Views: 17.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-13 17:04:33 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.8ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 115ms (Views: 112.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-13 17:31:19 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.4ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 115ms (Views: 113.1ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.6ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (26.0ms)[0m  [1mINSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["book_id", nil], ["created_at", Mon, 13 Feb 2012 13:31:19 UTC +00:00], ["text", "Human-Computer Interaction"], ["updated_at", Mon, 13 Feb 2012 13:31:19 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-13 17:31:19 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-13 17:31:59 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (1.2ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 122ms (Views: 117.5ms | ActiveRecord: 1.2ms)
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (23.6ms)[0m  [1mINSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["book_id", nil], ["created_at", Mon, 13 Feb 2012 13:31:59 UTC +00:00], ["text", "Human-Computer Interaction"], ["updated_at", Mon, 13 Feb 2012 13:31:59 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-13 17:31:59 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-13 17:32:52 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.5ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 109ms (Views: 107.2ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (22.7ms)[0m  [1mINSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["book_id", nil], ["created_at", Mon, 13 Feb 2012 13:32:52 UTC +00:00], ["text", "Human-Computer Interaction"], ["updated_at", Mon, 13 Feb 2012 13:32:52 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-13 17:32:53 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-13 17:40:02 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.5ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 104ms (Views: 102.6ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (25.0ms)[0m  [1mINSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["book_id", nil], ["created_at", Mon, 13 Feb 2012 13:40:02 UTC +00:00], ["text", "Human-Computer Interaction"], ["updated_at", Mon, 13 Feb 2012 13:40:02 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-13 17:40:02 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-13 17:40:28 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.5ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 104ms (Views: 102.3ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (23.0ms)[0m  [1mINSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["book_id", nil], ["created_at", Mon, 13 Feb 2012 13:40:28 UTC +00:00], ["text", "Human-Computer Interaction"], ["updated_at", Mon, 13 Feb 2012 13:40:28 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-13 17:40:28 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-13 17:46:48 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.2ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 70ms (Views: 67.8ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (23.4ms)[0m  [1mINSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["book_id", nil], ["created_at", Mon, 13 Feb 2012 13:46:48 UTC +00:00], ["text", "Human-Computer Interaction"], ["updated_at", Mon, 13 Feb 2012 13:46:48 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-13 17:46:49 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-13 17:48:37 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.6ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 87ms (Views: 85.6ms | ActiveRecord: 0.6ms)
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (24.0ms)[0m  [1mINSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["book_id", nil], ["created_at", Mon, 13 Feb 2012 13:48:37 UTC +00:00], ["text", "Human-Computer Interaction"], ["updated_at", Mon, 13 Feb 2012 13:48:37 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-13 17:48:37 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-13 17:49:29 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.5ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 73ms (Views: 70.6ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (24.1ms)[0m  [1mINSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["book_id", nil], ["created_at", Mon, 13 Feb 2012 13:49:29 UTC +00:00], ["text", "Human-Computer Interaction"], ["updated_at", Mon, 13 Feb 2012 13:49:29 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-13 17:49:29 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2012-02-13 17:49:29 +0400
+  Processing by QuotesController#create as HTML
+  Parameters: {"quote"=>{"text"=>"mow lawn"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["book_id", nil], ["created_at", Mon, 13 Feb 2012 13:49:29 UTC +00:00], ["text", "mow lawn"], ["updated_at", Mon, 13 Feb 2012 13:49:29 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/quotes/1
+Completed 302 Found in 5ms
+
+
+Started GET "/quotes/1" for 127.0.0.1 at 2012-02-13 17:49:29 +0400
+  Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mQuote Load (0.7ms)[0m  [1mSELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 200 OK in 9ms (Views: 6.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-13 17:56:20 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (2.2ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 112ms (Views: 98.5ms | ActiveRecord: 2.2ms)
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (31.9ms)[0m  [1mINSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["book_id", nil], ["created_at", Mon, 13 Feb 2012 13:56:20 UTC +00:00], ["text", "Human-Computer Interaction"], ["updated_at", Mon, 13 Feb 2012 13:56:20 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-13 17:56:20 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["book_id", nil], ["created_at", Mon, 13 Feb 2012 13:56:20 UTC +00:00], ["text", "Human-Computer Interaction"], ["updated_at", Mon, 13 Feb 2012 13:56:20 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-13 17:56:21 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2012-02-13 17:56:21 +0400
+  Processing by QuotesController#create as HTML
+  Parameters: {"quote"=>{"text"=>"mow lawn"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["book_id", nil], ["created_at", Mon, 13 Feb 2012 13:56:21 UTC +00:00], ["text", "mow lawn"], ["updated_at", Mon, 13 Feb 2012 13:56:21 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/quotes/1
+Completed 302 Found in 5ms
+
+
+Started GET "/quotes/1" for 127.0.0.1 at 2012-02-13 17:56:21 +0400
+  Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mQuote Load (0.3ms)[0m  [1mSELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 200 OK in 10ms (Views: 4.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-13 17:56:21 +0400
+  Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.2ms)[0m  SELECT "quotes".* FROM "quotes" 
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-13 17:57:22 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.5ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 89ms (Views: 86.8ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (28.4ms)[0m  [1mINSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["book_id", nil], ["created_at", Mon, 13 Feb 2012 13:57:22 UTC +00:00], ["text", "Human-Computer Interaction"], ["updated_at", Mon, 13 Feb 2012 13:57:22 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-13 17:57:22 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["book_id", nil], ["created_at", Mon, 13 Feb 2012 13:57:22 UTC +00:00], ["text", "Human-Computer Interaction"], ["updated_at", Mon, 13 Feb 2012 13:57:22 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-13 17:57:23 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2012-02-13 17:57:23 +0400
+  Processing by QuotesController#create as HTML
+  Parameters: {"quote"=>{"text"=>"mow lawn"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["book_id", nil], ["created_at", Mon, 13 Feb 2012 13:57:23 UTC +00:00], ["text", "mow lawn"], ["updated_at", Mon, 13 Feb 2012 13:57:23 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/quotes/1
+Completed 302 Found in 5ms
+
+
+Started GET "/quotes/1" for 127.0.0.1 at 2012-02-13 17:57:23 +0400
+  Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mQuote Load (0.2ms)[0m  [1mSELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 200 OK in 7ms (Views: 4.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-13 17:57:23 +0400
+  Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.2ms)[0m  SELECT "quotes".* FROM "quotes" 
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2012-02-14 00:52:27 +0400
+  Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.9ms)[0m  [1mSELECT "books".* FROM "books" [0m
+Rendered books/index.html.haml within layouts/application (4.2ms)
+Completed 200 OK in 80ms (Views: 78.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 00:52:27 +0400
+  Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.2ms)[0m  SELECT "quotes".* FROM "quotes" 
+Completed 200 OK in 22ms (Views: 20.3ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (29.8ms)[0m  INSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)  [["book_id", nil], ["created_at", Mon, 13 Feb 2012 20:52:27 UTC +00:00], ["text", "Human-Computer Interaction"], ["updated_at", Mon, 13 Feb 2012 20:52:27 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 00:52:27 +0400
+  Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT "quotes".* FROM "quotes" 
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)  [["book_id", nil], ["created_at", Mon, 13 Feb 2012 20:52:27 UTC +00:00], ["text", "Human-Computer Interaction"], ["updated_at", Mon, 13 Feb 2012 20:52:27 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 00:52:28 +0400
+  Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT "quotes".* FROM "quotes" 
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 00:52:35 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.6ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 6ms (Views: 3.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-02-14 00:52:35 +0400
+Compiled application.css  (4ms)  (pid 8447)
+Compiled authors.css  (19ms)  (pid 8447)
+Compiled books.css  (2ms)  (pid 8447)
+Compiled covers.css  (2ms)  (pid 8447)
+Compiled quotes.css  (1ms)  (pid 8447)
+Compiled scaffolds.css  (9ms)  (pid 8447)
+Served asset /application.css - 200 OK (77ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-02-14 00:52:35 +0400
+Compiled application.js  (11ms)  (pid 8447)
+Compiled jquery.js  (6ms)  (pid 8447)
+Compiled jquery_ujs.js  (2ms)  (pid 8447)
+Compiled authors.js  (265ms)  (pid 8447)
+Compiled books.js  (120ms)  (pid 8447)
+Compiled covers.js  (233ms)  (pid 8447)
+Compiled quotes.js  (1ms)  (pid 8447)
+Served asset /application.js - 200 OK (702ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2012-02-14 00:52:38 +0400
+  Processing by QuotesController#create as HTML
+  Parameters: {"quote"=>{"text"=>"mow lawn"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["book_id", nil], ["created_at", Mon, 13 Feb 2012 20:52:38 UTC +00:00], ["text", "mow lawn"], ["updated_at", Mon, 13 Feb 2012 20:52:38 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/quotes/1
+Completed 302 Found in 6ms
+
+
+Started GET "/quotes/1" for 127.0.0.1 at 2012-02-14 00:52:38 +0400
+  Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mQuote Load (0.3ms)[0m  [1mSELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 200 OK in 14ms (Views: 5.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 00:52:38 +0400
+  Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.2ms)[0m  SELECT "quotes".* FROM "quotes" 
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2012-02-14 01:14:02 +0400
+  Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT "books".* FROM "books" [0m
+Rendered books/index.html.haml within layouts/application (6.5ms)
+Completed 200 OK in 114ms (Views: 109.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 01:14:02 +0400
+  Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.2ms)[0m  SELECT "quotes".* FROM "quotes" 
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (28.5ms)[0m  INSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)  [["book_id", nil], ["created_at", Mon, 13 Feb 2012 21:14:02 UTC +00:00], ["text", "Human-Computer Interaction"], ["updated_at", Mon, 13 Feb 2012 21:14:02 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 01:14:02 +0400
+  Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT "quotes".* FROM "quotes" 
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)  [["book_id", nil], ["created_at", Mon, 13 Feb 2012 21:14:02 UTC +00:00], ["text", "Human-Computer Interaction"], ["updated_at", Mon, 13 Feb 2012 21:14:02 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 01:14:03 +0400
+  Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT "quotes".* FROM "quotes" 
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 01:14:10 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.8ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 9ms (Views: 5.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-02-14 01:14:10 +0400
+Served asset /application.js - 200 OK (34ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-02-14 01:14:10 +0400
+Served asset /application.css - 200 OK (19ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2012-02-14 01:14:12 +0400
+  Processing by QuotesController#create as HTML
+  Parameters: {"quote"=>{"text"=>"mow lawn"}}
+  [1m[35m (1.8ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["book_id", nil], ["created_at", Mon, 13 Feb 2012 21:14:12 UTC +00:00], ["text", "mow lawn"], ["updated_at", Mon, 13 Feb 2012 21:14:12 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/quotes/1
+Completed 302 Found in 9ms
+
+
+Started GET "/quotes/1" for 127.0.0.1 at 2012-02-14 01:14:12 +0400
+  Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mQuote Load (1.3ms)[0m  [1mSELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 200 OK in 29ms (Views: 9.9ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2012-02-14 01:14:55 +0400
+  Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT "books".* FROM "books" [0m
+Rendered books/index.html.haml within layouts/application (3.9ms)
+Completed 200 OK in 77ms (Views: 75.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 01:14:56 +0400
+  Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.2ms)[0m  SELECT "quotes".* FROM "quotes" 
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (28.1ms)[0m  INSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)  [["book_id", nil], ["created_at", Mon, 13 Feb 2012 21:14:56 UTC +00:00], ["text", "Human-Computer Interaction"], ["updated_at", Mon, 13 Feb 2012 21:14:56 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 01:14:56 +0400
+  Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT "quotes".* FROM "quotes" 
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)  [["book_id", nil], ["created_at", Mon, 13 Feb 2012 21:14:56 UTC +00:00], ["text", "Human-Computer Interaction"], ["updated_at", Mon, 13 Feb 2012 21:14:56 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 01:14:56 +0400
+  Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.2ms)[0m  SELECT "quotes".* FROM "quotes" 
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 01:15:02 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.6ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 6ms (Views: 3.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-02-14 01:15:02 +0400
+Served asset /application.js - 200 OK (38ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-02-14 01:15:02 +0400
+Served asset /application.css - 200 OK (15ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2012-02-14 01:15:05 +0400
+  Processing by QuotesController#create as HTML
+  Parameters: {"quote"=>{"text"=>"mow lawn"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["book_id", nil], ["created_at", Mon, 13 Feb 2012 21:15:05 UTC +00:00], ["text", "mow lawn"], ["updated_at", Mon, 13 Feb 2012 21:15:05 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/quotes/1
+Completed 302 Found in 6ms
+
+
+Started GET "/quotes/1" for 127.0.0.1 at 2012-02-14 01:15:05 +0400
+  Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mQuote Load (0.3ms)[0m  [1mSELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 200 OK in 8ms (Views: 4.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/quotes/new" for 127.0.0.1 at 2012-02-14 01:15:05 +0400
+  Processing by QuotesController#new as HTML
+Rendered quotes/_form.html.haml (11.9ms)
+Completed 200 OK in 36ms (Views: 35.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2012-02-14 01:19:55 +0400
+  Processing by BooksController#index as HTML
+  [1m[36mBook Load (1.8ms)[0m  [1mSELECT "books".* FROM "books" [0m
+Rendered books/index.html.haml within layouts/application (3.9ms)
+Completed 200 OK in 82ms (Views: 78.8ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 01:19:55 +0400
+  Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.5ms)[0m  SELECT "quotes".* FROM "quotes" 
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.5ms)
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (33.4ms)[0m  INSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)  [["book_id", nil], ["created_at", Mon, 13 Feb 2012 21:19:55 UTC +00:00], ["text", "Human-Computer Interaction"], ["updated_at", Mon, 13 Feb 2012 21:19:55 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 01:19:55 +0400
+  Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.2ms)[0m  SELECT "quotes".* FROM "quotes" 
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)  [["book_id", nil], ["created_at", Mon, 13 Feb 2012 21:19:55 UTC +00:00], ["text", "Human-Computer Interaction"], ["updated_at", Mon, 13 Feb 2012 21:19:55 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 01:19:56 +0400
+  Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT "quotes".* FROM "quotes" 
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 01:20:05 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (1.5ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 17ms (Views: 10.2ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-02-14 01:20:05 +0400
+Compiled application.js  (10ms)  (pid 8519)
+Compiled jquery.js  (6ms)  (pid 8519)
+Compiled jquery_ujs.js  (1ms)  (pid 8519)
+Compiled authors.js  (175ms)  (pid 8519)
+Compiled books.js  (119ms)  (pid 8519)
+Compiled covers.js  (138ms)  (pid 8519)
+Compiled quotes.js  (0ms)  (pid 8519)
+Served asset /application.js - 200 OK (583ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-02-14 01:20:06 +0400
+Compiled application.css  (7ms)  (pid 8519)
+Compiled authors.css  (26ms)  (pid 8519)
+Compiled books.css  (3ms)  (pid 8519)
+Compiled covers.css  (1ms)  (pid 8519)
+Compiled quotes.css  (1ms)  (pid 8519)
+Compiled scaffolds.css  (12ms)  (pid 8519)
+Served asset /application.css - 200 OK (80ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2012-02-14 01:20:08 +0400
+  Processing by QuotesController#create as HTML
+  Parameters: {"quote"=>{"text"=>"mow lawn"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["book_id", nil], ["created_at", Mon, 13 Feb 2012 21:20:08 UTC +00:00], ["text", "mow lawn"], ["updated_at", Mon, 13 Feb 2012 21:20:08 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/quotes/1
+Completed 302 Found in 7ms
+
+
+Started GET "/quotes/1" for 127.0.0.1 at 2012-02-14 01:20:08 +0400
+  Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mQuote Load (0.2ms)[0m  [1mSELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 200 OK in 13ms (Views: 7.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/quotes/new" for 127.0.0.1 at 2012-02-14 01:20:08 +0400
+  Processing by QuotesController#new as HTML
+Rendered quotes/_form.html.haml (73.1ms)
+Completed 200 OK in 99ms (Views: 96.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2012-02-14 01:20:08 +0400
+  Processing by QuotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "quote"=>{"text"=>"mow lawn", "book_id"=>""}, "commit"=>"Create Quote"}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["book_id", nil], ["created_at", Mon, 13 Feb 2012 21:20:08 UTC +00:00], ["text", "mow lawn"], ["updated_at", Mon, 13 Feb 2012 21:20:08 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/quotes/1
+Completed 302 Found in 5ms
+
+
+Started GET "/quotes/1" for 127.0.0.1 at 2012-02-14 01:20:08 +0400
+  Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2012-02-14 01:20:53 +0400
+  Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT "books".* FROM "books" [0m
+Rendered books/index.html.haml within layouts/application (3.9ms)
+Completed 200 OK in 78ms (Views: 76.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 01:20:53 +0400
+  Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.2ms)[0m  SELECT "quotes".* FROM "quotes" 
+Completed 200 OK in 18ms (Views: 16.4ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (33.6ms)[0m  INSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)  [["book_id", nil], ["created_at", Mon, 13 Feb 2012 21:20:53 UTC +00:00], ["text", "Human-Computer Interaction"], ["updated_at", Mon, 13 Feb 2012 21:20:53 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 01:20:53 +0400
+  Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT "quotes".* FROM "quotes" 
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)  [["book_id", nil], ["created_at", Mon, 13 Feb 2012 21:20:53 UTC +00:00], ["text", "Human-Computer Interaction"], ["updated_at", Mon, 13 Feb 2012 21:20:53 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 01:20:53 +0400
+  Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT "quotes".* FROM "quotes" 
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 01:21:00 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.5ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-02-14 01:21:00 +0400
+Served asset /application.css - 200 OK (21ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-02-14 01:21:00 +0400
+Served asset /application.js - 200 OK (24ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2012-02-14 01:21:00 +0400
+  Processing by QuotesController#create as HTML
+  Parameters: {"quote"=>{"text"=>"mow lawn"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["book_id", nil], ["created_at", Mon, 13 Feb 2012 21:21:00 UTC +00:00], ["text", "mow lawn"], ["updated_at", Mon, 13 Feb 2012 21:21:00 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/quotes/1
+Completed 302 Found in 7ms
+
+
+Started GET "/quotes/1" for 127.0.0.1 at 2012-02-14 01:21:00 +0400
+  Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mQuote Load (2.4ms)[0m  [1mSELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 200 OK in 12ms (Views: 6.4ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/quotes/new" for 127.0.0.1 at 2012-02-14 01:21:00 +0400
+  Processing by QuotesController#new as HTML
+Rendered quotes/_form.html.haml (18.3ms)
+Completed 200 OK in 47ms (Views: 45.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2012-02-14 01:21:00 +0400
+  Processing by QuotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "quote"=>{"text"=>"mow lawn", "book_id"=>""}, "commit"=>"Create Quote"}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["book_id", nil], ["created_at", Mon, 13 Feb 2012 21:21:00 UTC +00:00], ["text", "mow lawn"], ["updated_at", Mon, 13 Feb 2012 21:21:00 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/quotes/1
+Completed 302 Found in 4ms
+
+
+Started GET "/quotes/1" for 127.0.0.1 at 2012-02-14 01:21:00 +0400
+  Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.1ms)
+  [1m[36mFixture Delete (4.4ms)[0m  [1mDELETE FROM "authors"[0m
+  [1m[35mFixture Insert (0.6ms)[0m  INSERT INTO "authors" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-02-13 22:13:12', '2012-02-13 22:13:12', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "authors" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-02-13 22:13:12', '2012-02-13 22:13:12', 298486374)[0m
+  [1m[35mFixture Delete (1.3ms)[0m  DELETE FROM "books"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "books" ("title", "author_id", "cover_id", "created_at", "updated_at", "id") VALUES ('MyString', 1, 1, '2012-02-13 22:13:12', '2012-02-13 22:13:12', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "books" ("title", "author_id", "cover_id", "created_at", "updated_at", "id") VALUES ('MyString', 1, 1, '2012-02-13 22:13:12', '2012-02-13 22:13:12', 298486374)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM "covers"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "covers" ("book_id", "created_at", "updated_at", "id") VALUES (1, '2012-02-13 22:13:12', '2012-02-13 22:13:12', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "covers" ("book_id", "created_at", "updated_at", "id") VALUES (1, '2012-02-13 22:13:12', '2012-02-13 22:13:12', 298486374)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM "quotes"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "quotes" ("text", "book_id", "created_at", "updated_at", "id") VALUES ('MyString', 1, '2012-02-13 22:13:12', '2012-02-13 22:13:12', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "quotes" ("text", "book_id", "created_at", "updated_at", "id") VALUES ('MyString', 1, '2012-02-13 22:13:12', '2012-02-13 22:13:12', 298486374)
+  [1m[36mFixture Delete (4.8ms)[0m  [1mDELETE FROM "urls"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "urls" ("link", "created_at", "updated_at", "id") VALUES ('MyString', '2012-02-13 22:13:12', '2012-02-13 22:13:12', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "urls" ("link", "created_at", "updated_at", "id") VALUES ('MyString', '2012-02-13 22:13:12', '2012-02-13 22:13:12', 298486374)[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+
+
+Started GET "/books" for 127.0.0.1 at 2012-02-14 08:22:18 +0400
+  Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.4ms)[0m  [1mSELECT "books".* FROM "books" [0m
+Rendered books/index.html.haml within layouts/application (5.8ms)
+Completed 200 OK in 86ms (Views: 84.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 08:22:18 +0400
+  Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.4ms)[0m  SELECT "quotes".* FROM "quotes" 
+Completed 200 OK in 20ms (Views: 18.1ms | ActiveRecord: 0.4ms)
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (32.8ms)[0m  INSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)  [["book_id", nil], ["created_at", Tue, 14 Feb 2012 04:22:18 UTC +00:00], ["text", "Human-Computer Interaction"], ["updated_at", Tue, 14 Feb 2012 04:22:18 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 08:22:18 +0400
+  Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT "quotes".* FROM "quotes" 
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.9ms)[0m  INSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)  [["book_id", nil], ["created_at", Tue, 14 Feb 2012 04:22:18 UTC +00:00], ["text", "Human-Computer Interaction"], ["updated_at", Tue, 14 Feb 2012 04:22:18 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 08:22:19 +0400
+  Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT "quotes".* FROM "quotes" 
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 08:22:27 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (2.9ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 7ms (Views: 3.2ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-02-14 08:22:27 +0400
+Compiled application.css  (6ms)  (pid 8995)
+Compiled urls.css  (14ms)  (pid 8995)
+Served asset /application.css - 200 OK (62ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-02-14 08:22:27 +0400
+Compiled application.js  (10ms)  (pid 8995)
+Compiled urls.js  (192ms)  (pid 8995)
+Served asset /application.js - 200 OK (333ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2012-02-14 08:22:28 +0400
+  Processing by QuotesController#create as HTML
+  Parameters: {"quote"=>{"text"=>"mow lawn"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (2.1ms)[0m  [1mINSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["book_id", nil], ["created_at", Tue, 14 Feb 2012 04:22:28 UTC +00:00], ["text", "mow lawn"], ["updated_at", Tue, 14 Feb 2012 04:22:28 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/quotes/1
+Completed 302 Found in 10ms
+
+
+Started GET "/quotes/1" for 127.0.0.1 at 2012-02-14 08:22:28 +0400
+  Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mQuote Load (0.3ms)[0m  [1mSELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 200 OK in 33ms (Views: 29.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/quotes/new" for 127.0.0.1 at 2012-02-14 08:22:28 +0400
+  Processing by QuotesController#new as HTML
+Rendered quotes/_form.html.haml (10.6ms)
+Completed 200 OK in 36ms (Views: 35.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2012-02-14 08:22:28 +0400
+  Processing by QuotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "quote"=>{"text"=>"mow lawn", "book_id"=>""}, "commit"=>"Create Quote"}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["book_id", nil], ["created_at", Tue, 14 Feb 2012 04:22:28 UTC +00:00], ["text", "mow lawn"], ["updated_at", Tue, 14 Feb 2012 04:22:28 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/quotes/1
+Completed 302 Found in 4ms
+
+
+Started GET "/quotes/1" for 127.0.0.1 at 2012-02-14 08:22:28 +0400
+  Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.1ms)
+  [1m[36mFixture Delete (0.8ms)[0m  [1mDELETE FROM "authors"[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO "authors" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-02-14 04:22:50', '2012-02-14 04:22:50', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "authors" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2012-02-14 04:22:50', '2012-02-14 04:22:50', 298486374)[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "books"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "books" ("title", "author_id", "cover_id", "created_at", "updated_at", "id") VALUES ('MyString', 1, 1, '2012-02-14 04:22:50', '2012-02-14 04:22:50', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "books" ("title", "author_id", "cover_id", "created_at", "updated_at", "id") VALUES ('MyString', 1, 1, '2012-02-14 04:22:50', '2012-02-14 04:22:50', 298486374)
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM "covers"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "covers" ("book_id", "created_at", "updated_at", "id") VALUES (1, '2012-02-14 04:22:50', '2012-02-14 04:22:50', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "covers" ("book_id", "created_at", "updated_at", "id") VALUES (1, '2012-02-14 04:22:50', '2012-02-14 04:22:50', 298486374)[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "quotes"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "quotes" ("text", "book_id", "created_at", "updated_at", "id") VALUES ('MyString', 1, '2012-02-14 04:22:50', '2012-02-14 04:22:50', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "quotes" ("text", "book_id", "created_at", "updated_at", "id") VALUES ('MyString', 1, '2012-02-14 04:22:50', '2012-02-14 04:22:50', 298486374)
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM "urls"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "urls" ("link", "created_at", "updated_at", "id") VALUES ('MyString', '2012-02-14 04:22:50', '2012-02-14 04:22:50', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "urls" ("link", "created_at", "updated_at", "id") VALUES ('MyString', '2012-02-14 04:22:50', '2012-02-14 04:22:50', 298486374)[0m
+  [1m[35mAuthor Load (0.3ms)[0m  SELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "authors" [0m
+  Processing by AuthorsController#create as HTML
+  Parameters: {"author"=>{"id"=>"980190962", "name"=>"MyString", "created_at"=>"2012-02-14 04:22:50 UTC", "updated_at"=>"2012-02-14 04:22:50 UTC"}}
+WARNING: Can't mass-assign protected attributes: id
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "authors" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Tue, 14 Feb 2012 04:22:50 UTC +00:00], ["name", "MyString"], ["updated_at", Tue, 14 Feb 2012 04:22:50 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/authors/980190963
+Completed 302 Found in 9ms
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "authors" [0m
+  [1m[35mAuthor Load (0.1ms)[0m  SELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "authors" [0m
+  Processing by AuthorsController#destroy as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[35mAuthor Load (0.1ms)[0m  SELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", "980190962"]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "authors" WHERE "authors"."id" = ?  [["id", 980190962]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/authors
+Completed 302 Found in 3ms
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "authors" 
+  [1m[36mAuthor Load (0.1ms)[0m  [1mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  Processing by AuthorsController#edit as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[35mAuthor Load (0.1ms)[0m  SELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", "980190962"]]
+Rendered authors/_form.html.erb (3.7ms)
+Completed 200 OK in 142ms (Views: 140.4ms | ActiveRecord: 0.1ms)
+  [1m[36mAuthor Load (0.1ms)[0m  [1mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (0.1ms)[0m  SELECT "authors".* FROM "authors" 
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.1ms)
+  [1m[36mAuthor Load (0.1ms)[0m  [1mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  Processing by AuthorsController#new as HTML
+Rendered authors/_form.html.erb (2.4ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+  [1m[35mAuthor Load (0.1ms)[0m  SELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 980190962]]
+  Processing by AuthorsController#show as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mAuthor Load (0.1ms)[0m  [1mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", "980190962"]]
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 0.1ms)
+  [1m[35mAuthor Load (0.2ms)[0m  SELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 980190962]]
+  Processing by AuthorsController#update as HTML
+  Parameters: {"author"=>{"id"=>"980190962", "name"=>"MyString", "created_at"=>"2012-02-14 04:22:50 UTC", "updated_at"=>"2012-02-14 04:22:50 UTC"}, "id"=>"980190962"}
+  [1m[36mAuthor Load (0.1ms)[0m  [1mSELECT "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", "980190962"]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+WARNING: Can't mass-assign protected attributes: id
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/authors/980190962
+Completed 302 Found in 11ms
+  [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books" [0m
+  Processing by BooksController#create as HTML
+  Parameters: {"book"=>{"id"=>"980190962", "title"=>"MyString", "author_id"=>"1", "cover_id"=>"1", "created_at"=>"2012-02-14 04:22:50 UTC", "updated_at"=>"2012-02-14 04:22:50 UTC"}}
+WARNING: Can't mass-assign protected attributes: id
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "books" ("author_id", "cover_id", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["author_id", 1], ["cover_id", 1], ["created_at", Tue, 14 Feb 2012 04:22:50 UTC +00:00], ["title", "MyString"], ["updated_at", Tue, 14 Feb 2012 04:22:50 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/books/980190963
+Completed 302 Found in 6ms
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books" [0m
+  [1m[35mBook Load (0.1ms)[0m  SELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books" [0m
+  Processing by BooksController#destroy as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[35mBook Load (0.1ms)[0m  SELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", "980190962"]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "books" WHERE "books"."id" = ?  [["id", 980190962]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/books
+Completed 302 Found in 4ms
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "books" 
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  Processing by BooksController#edit as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[35mBook Load (0.1ms)[0m  SELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", "980190962"]]
+Rendered books/_form.html.erb (5.0ms)
+Completed 200 OK in 23ms (Views: 17.9ms | ActiveRecord: 0.1ms)
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.1ms)[0m  SELECT "books".* FROM "books" 
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.1ms)
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  Processing by BooksController#new as HTML
+Rendered books/_form.html.erb (3.2ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+  [1m[35mBook Load (0.1ms)[0m  SELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", 980190962]]
+  Processing by BooksController#show as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", "980190962"]]
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.1ms)
+  [1m[35mBook Load (0.1ms)[0m  SELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", 980190962]]
+  Processing by BooksController#update as HTML
+  Parameters: {"book"=>{"id"=>"980190962", "title"=>"MyString", "author_id"=>"1", "cover_id"=>"1", "created_at"=>"2012-02-14 04:22:50 UTC", "updated_at"=>"2012-02-14 04:22:50 UTC"}, "id"=>"980190962"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", "980190962"]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+WARNING: Can't mass-assign protected attributes: id
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/books/980190962
+Completed 302 Found in 9ms
+  [1m[35mQuote Load (0.2ms)[0m  SELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "quotes" [0m
+  Processing by QuotesController#create as HTML
+  Parameters: {"quote"=>{"id"=>"980190962", "text"=>"MyString", "book_id"=>"1", "created_at"=>"2012-02-14 04:22:50 UTC", "updated_at"=>"2012-02-14 04:22:50 UTC"}}
+WARNING: Can't mass-assign protected attributes: id
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["book_id", 1], ["created_at", Tue, 14 Feb 2012 04:22:50 UTC +00:00], ["text", "MyString"], ["updated_at", Tue, 14 Feb 2012 04:22:50 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/quotes/980190963
+Completed 302 Found in 5ms
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "quotes" [0m
+  [1m[35mQuote Load (0.1ms)[0m  SELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "quotes" [0m
+  Processing by QuotesController#destroy as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[35mQuote Load (0.1ms)[0m  SELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1  [["id", "980190962"]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "quotes" WHERE "quotes"."id" = ?  [["id", 980190962]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/quotes
+Completed 302 Found in 3ms
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "quotes" 
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  Processing by QuotesController#edit as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[35mQuote Load (0.1ms)[0m  SELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1  [["id", "980190962"]]
+Rendered quotes/_form.html.haml (9.2ms)
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.1ms)
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT "quotes".* FROM "quotes" 
+Completed 200 OK in 18ms (Views: 16.4ms | ActiveRecord: 0.1ms)
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  Processing by QuotesController#new as HTML
+Rendered quotes/_form.html.haml (3.2ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+  [1m[35mQuote Load (0.1ms)[0m  SELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1  [["id", 980190962]]
+  Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1[0m  [["id", "980190962"]]
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.1ms)
+  [1m[35mQuote Load (0.1ms)[0m  SELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1  [["id", 980190962]]
+  Processing by QuotesController#update as HTML
+  Parameters: {"quote"=>{"id"=>"980190962", "text"=>"MyString", "book_id"=>"1", "created_at"=>"2012-02-14 04:22:50 UTC", "updated_at"=>"2012-02-14 04:22:50 UTC"}, "id"=>"980190962"}
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1[0m  [["id", "980190962"]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+WARNING: Can't mass-assign protected attributes: id
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/quotes/980190962
+Completed 302 Found in 5ms
+  [1m[35mUrl Load (0.2ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "urls" [0m
+  Processing by UrlsController#create as HTML
+  Parameters: {"url"=>{"id"=>"980190962", "link"=>"MyString", "quote_id"=>nil, "created_at"=>"2012-02-14 04:22:50 UTC", "updated_at"=>"2012-02-14 04:22:50 UTC"}}
+WARNING: Can't mass-assign protected attributes: id
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "urls" ("created_at", "link", "quote_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Tue, 14 Feb 2012 04:22:50 UTC +00:00], ["link", "MyString"], ["quote_id", nil], ["updated_at", Tue, 14 Feb 2012 04:22:50 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/urls/980190963
+Completed 302 Found in 7ms
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "urls" [0m
+  [1m[35mUrl Load (0.1ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "urls" [0m
+  Processing by UrlsController#destroy as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[35mUrl Load (0.1ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."id" = ? LIMIT 1  [["id", "980190962"]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "urls" WHERE "urls"."id" = ?  [["id", 980190962]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/urls
+Completed 302 Found in 3ms
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "urls" 
+  [1m[36mUrl Load (0.1ms)[0m  [1mSELECT "urls".* FROM "urls" WHERE "urls"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  Processing by UrlsController#edit as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[35mUrl Load (0.1ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."id" = ? LIMIT 1  [["id", "980190962"]]
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT "quotes".* FROM "quotes" WHERE "quotes"."id" IS NULL LIMIT 1[0m
+Rendered urls/_form.html.erb (126.9ms)
+Completed 200 OK in 140ms (Views: 138.2ms | ActiveRecord: 0.2ms)
+  [1m[35mUrl Load (0.1ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."id" = ? LIMIT 1  [["id", 980190962]]
+  Processing by UrlsController#index as HTML
+  [1m[36mUrl Load (0.1ms)[0m  [1mSELECT "urls".* FROM "urls" [0m
+  [1m[35mQuote Load (0.1ms)[0m  SELECT "quotes".* FROM "quotes" WHERE "quotes"."id" IS NULL LIMIT 1
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT "quotes".* FROM "quotes" WHERE "quotes"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.4ms)
+  [1m[35mUrl Load (0.1ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."id" = ? LIMIT 1  [["id", 980190962]]
+  Processing by UrlsController#new as HTML
+Rendered urls/_form.html.erb (3.6ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+  [1m[36mUrl Load (0.1ms)[0m  [1mSELECT "urls".* FROM "urls" WHERE "urls"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  Processing by UrlsController#show as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[35mUrl Load (0.1ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."id" = ? LIMIT 1  [["id", "980190962"]]
+  [1m[36mQuote Load (0.2ms)[0m  [1mSELECT "quotes".* FROM "quotes" WHERE "quotes"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 14ms (Views: 10.8ms | ActiveRecord: 0.3ms)
+  [1m[35mUrl Load (0.1ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."id" = ? LIMIT 1  [["id", 980190962]]
+  Processing by UrlsController#update as HTML
+  Parameters: {"url"=>{"id"=>"980190962", "link"=>"MyString", "quote_id"=>nil, "created_at"=>"2012-02-14 04:22:50 UTC", "updated_at"=>"2012-02-14 04:22:50 UTC"}, "id"=>"980190962"}
+  [1m[36mUrl Load (0.1ms)[0m  [1mSELECT "urls".* FROM "urls" WHERE "urls"."id" = ? LIMIT 1[0m  [["id", "980190962"]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+WARNING: Can't mass-assign protected attributes: id
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/urls/980190962
+Completed 302 Found in 6ms
+
+
+Started GET "/books" for 127.0.0.1 at 2012-02-14 11:45:57 +0400
+  Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.5ms)[0m  [1mSELECT "books".* FROM "books" [0m
+Rendered books/index.html.haml within layouts/application (3.7ms)
+Completed 200 OK in 83ms (Views: 81.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2012-02-14 11:47:15 +0400
+  Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.4ms)[0m  [1mSELECT "books".* FROM "books" [0m
+Rendered books/index.html.haml within layouts/application (4.3ms)
+Completed 200 OK in 79ms (Views: 77.3ms | ActiveRecord: 0.4ms)
+  [1m[35mFixture Delete (0.7ms)[0m  DELETE FROM "quotes"
+  [1m[36mFixture Insert (0.6ms)[0m  [1mINSERT INTO "quotes" ("text", "book_id", "created_at", "updated_at", "id") VALUES ('MyString', 1, '2012-02-14 07:47:15', '2012-02-14 07:47:15', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "quotes" ("text", "book_id", "created_at", "updated_at", "id") VALUES ('MyString', 1, '2012-02-14 07:47:15', '2012-02-14 07:47:15', 298486374)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 11:47:15 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.2ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 27ms (Views: 25.6ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (49.1ms)[0m  [1mINSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["book_id", nil], ["created_at", Tue, 14 Feb 2012 07:47:15 UTC +00:00], ["text", "Human-Computer Interaction"], ["updated_at", Tue, 14 Feb 2012 07:47:15 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 11:47:15 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["book_id", nil], ["created_at", Tue, 14 Feb 2012 07:47:15 UTC +00:00], ["text", "Human-Computer Interaction"], ["updated_at", Tue, 14 Feb 2012 07:47:15 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 11:47:16 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 11:47:23 +0400
+  Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.9ms)[0m  SELECT "quotes".* FROM "quotes" 
+Completed 200 OK in 35ms (Views: 25.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-02-14 11:47:23 +0400
+Served asset /application.js - 200 OK (120ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-02-14 11:47:23 +0400
+Served asset /application.css - 200 OK (26ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2012-02-14 11:47:24 +0400
+  Processing by QuotesController#create as HTML
+  Parameters: {"quote"=>{"text"=>"mow lawn"}}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)  [["book_id", nil], ["created_at", Tue, 14 Feb 2012 07:47:24 UTC +00:00], ["text", "mow lawn"], ["updated_at", Tue, 14 Feb 2012 07:47:24 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/quotes/980190963
+Completed 302 Found in 13ms
+
+
+Started GET "/quotes/980190963" for 127.0.0.1 at 2012-02-14 11:47:24 +0400
+  Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"980190963"}
+  [1m[35mQuote Load (0.2ms)[0m  SELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1  [["id", "980190963"]]
+Completed 200 OK in 8ms (Views: 4.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/quotes/new" for 127.0.0.1 at 2012-02-14 11:47:24 +0400
+  Processing by QuotesController#new as HTML
+Rendered quotes/_form.html.haml (17.0ms)
+Completed 200 OK in 50ms (Views: 49.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2012-02-14 11:47:24 +0400
+  Processing by QuotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "quote"=>{"text"=>"mow lawn", "book_id"=>""}, "commit"=>"Create Quote"}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)  [["book_id", nil], ["created_at", Tue, 14 Feb 2012 07:47:24 UTC +00:00], ["text", "mow lawn"], ["updated_at", Tue, 14 Feb 2012 07:47:24 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/quotes/980190963
+Completed 302 Found in 4ms
+
+
+Started GET "/quotes/980190963" for 127.0.0.1 at 2012-02-14 11:47:24 +0400
+  Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"980190963"}
+  [1m[35mQuote Load (0.1ms)[0m  SELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1  [["id", "980190963"]]
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2012-02-14 11:48:22 +0400
+  Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT "books".* FROM "books" [0m
+Rendered books/index.html.haml within layouts/application (3.8ms)
+Completed 200 OK in 78ms (Views: 76.8ms | ActiveRecord: 0.2ms)
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM "quotes"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "quotes" ("text", "book_id", "created_at", "updated_at", "id") VALUES ('MyString', 1, '2012-02-14 07:48:22', '2012-02-14 07:48:22', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "quotes" ("text", "book_id", "created_at", "updated_at", "id") VALUES ('MyString', 1, '2012-02-14 07:48:22', '2012-02-14 07:48:22', 298486374)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 11:48:22 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.2ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 25ms (Views: 23.1ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.6ms)[0m  [1mINSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["book_id", nil], ["created_at", Tue, 14 Feb 2012 07:48:22 UTC +00:00], ["text", "Human-Computer Interaction"], ["updated_at", Tue, 14 Feb 2012 07:48:22 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 11:48:22 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.2ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["book_id", nil], ["created_at", Tue, 14 Feb 2012 07:48:22 UTC +00:00], ["text", "Human-Computer Interaction"], ["updated_at", Tue, 14 Feb 2012 07:48:22 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 11:48:23 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 11:48:29 +0400
+  Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (1.3ms)[0m  SELECT "quotes".* FROM "quotes" 
+Completed 200 OK in 48ms (Views: 30.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-02-14 11:48:30 +0400
+Served asset /application.js - 200 OK (71ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-02-14 11:48:30 +0400
+Served asset /application.css - 200 OK (24ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2012-02-14 11:48:30 +0400
+  Processing by QuotesController#create as HTML
+  Parameters: {"quote"=>{"text"=>"mow lawn"}}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (4.7ms)[0m  INSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)  [["book_id", nil], ["created_at", Tue, 14 Feb 2012 07:48:30 UTC +00:00], ["text", "mow lawn"], ["updated_at", Tue, 14 Feb 2012 07:48:30 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/quotes/980190963
+Completed 302 Found in 16ms
+
+
+Started GET "/quotes/980190963" for 127.0.0.1 at 2012-02-14 11:48:30 +0400
+  Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"980190963"}
+  [1m[35mQuote Load (0.3ms)[0m  SELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1  [["id", "980190963"]]
+Completed 200 OK in 13ms (Views: 6.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/quotes/new" for 127.0.0.1 at 2012-02-14 11:48:30 +0400
+  Processing by QuotesController#new as HTML
+Rendered quotes/_form.html.haml (28.4ms)
+Completed 200 OK in 52ms (Views: 51.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2012-02-14 11:48:30 +0400
+  Processing by QuotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "quote"=>{"text"=>"mow lawn", "book_id"=>""}, "commit"=>"Create Quote"}
+  [1m[36m (0.6ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)  [["book_id", nil], ["created_at", Tue, 14 Feb 2012 07:48:30 UTC +00:00], ["text", "mow lawn"], ["updated_at", Tue, 14 Feb 2012 07:48:30 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/quotes/980190963
+Completed 302 Found in 5ms
+
+
+Started GET "/quotes/980190963" for 127.0.0.1 at 2012-02-14 11:48:30 +0400
+  Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"980190963"}
+  [1m[35mQuote Load (0.1ms)[0m  SELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1  [["id", "980190963"]]
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2012-02-14 11:55:11 +0400
+  Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.4ms)[0m  [1mSELECT "books".* FROM "books" [0m
+Rendered books/index.html.haml within layouts/application (3.7ms)
+Completed 200 OK in 133ms (Views: 130.9ms | ActiveRecord: 0.4ms)
+  [1m[35mFixture Delete (0.6ms)[0m  DELETE FROM "quotes"
+  [1m[36mFixture Insert (1.6ms)[0m  [1mINSERT INTO "quotes" ("text", "book_id", "created_at", "updated_at", "id") VALUES ('MyString', 1, '2012-02-14 07:55:11', '2012-02-14 07:55:11', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "quotes" ("text", "book_id", "created_at", "updated_at", "id") VALUES ('MyString', 1, '2012-02-14 07:55:11', '2012-02-14 07:55:11', 298486374)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 11:55:11 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.2ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 29ms (Views: 27.2ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (51.3ms)[0m  [1mINSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["book_id", nil], ["created_at", Tue, 14 Feb 2012 07:55:11 UTC +00:00], ["text", "Human-Computer Interaction"], ["updated_at", Tue, 14 Feb 2012 07:55:11 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 11:55:11 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.2ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["book_id", nil], ["created_at", Tue, 14 Feb 2012 07:55:11 UTC +00:00], ["text", "Human-Computer Interaction"], ["updated_at", Tue, 14 Feb 2012 07:55:11 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 11:55:12 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 11:55:20 +0400
+  Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.9ms)[0m  SELECT "quotes".* FROM "quotes" 
+Completed 200 OK in 16ms (Views: 8.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-02-14 11:55:20 +0400
+Served asset /application.js - 200 OK (58ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-02-14 11:55:20 +0400
+Served asset /application.css - 200 OK (34ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2012-02-14 11:55:20 +0400
+  Processing by QuotesController#create as HTML
+  Parameters: {"quote"=>{"text"=>"mow lawn"}}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)  [["book_id", nil], ["created_at", Tue, 14 Feb 2012 07:55:20 UTC +00:00], ["text", "mow lawn"], ["updated_at", Tue, 14 Feb 2012 07:55:20 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/quotes/980190963
+Completed 302 Found in 7ms
+
+
+Started GET "/quotes/980190963" for 127.0.0.1 at 2012-02-14 11:55:20 +0400
+  Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"980190963"}
+  [1m[35mQuote Load (0.2ms)[0m  SELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1  [["id", "980190963"]]
+Completed 200 OK in 11ms (Views: 7.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/quotes/new" for 127.0.0.1 at 2012-02-14 11:55:20 +0400
+  Processing by QuotesController#new as HTML
+Rendered quotes/_form.html.haml (16.3ms)
+Completed 200 OK in 42ms (Views: 41.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2012-02-14 11:55:21 +0400
+  Processing by QuotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "quote"=>{"text"=>"mow lawn", "book_id"=>""}, "commit"=>"Create Quote"}
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)  [["book_id", nil], ["created_at", Tue, 14 Feb 2012 07:55:21 UTC +00:00], ["text", "mow lawn"], ["updated_at", Tue, 14 Feb 2012 07:55:21 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/quotes/980190963
+Completed 302 Found in 4ms
+
+
+Started GET "/quotes/980190963" for 127.0.0.1 at 2012-02-14 11:55:21 +0400
+  Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"980190963"}
+  [1m[35mQuote Load (0.1ms)[0m  SELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1  [["id", "980190963"]]
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2012-02-14 12:26:24 +0400
+  Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.5ms)[0m  [1mSELECT "books".* FROM "books" [0m
+Rendered books/index.html.haml within layouts/application (5.3ms)
+Completed 200 OK in 84ms (Views: 82.1ms | ActiveRecord: 0.5ms)
+  [1m[35mFixture Delete (0.7ms)[0m  DELETE FROM "quotes"
+  [1m[36mFixture Insert (0.6ms)[0m  [1mINSERT INTO "quotes" ("text", "book_id", "created_at", "updated_at", "id") VALUES ('MyString', 1, '2012-02-14 08:26:24', '2012-02-14 08:26:24', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "quotes" ("text", "book_id", "created_at", "updated_at", "id") VALUES ('MyString', 1, '2012-02-14 08:26:24', '2012-02-14 08:26:24', 298486374)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 12:26:24 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.2ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 29ms (Views: 27.5ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (8.4ms)[0m  [1mINSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["book_id", nil], ["created_at", Tue, 14 Feb 2012 08:26:24 UTC +00:00], ["text", "Human-Computer Interaction"], ["updated_at", Tue, 14 Feb 2012 08:26:24 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 12:26:24 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.2ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["book_id", nil], ["created_at", Tue, 14 Feb 2012 08:26:24 UTC +00:00], ["text", "Human-Computer Interaction"], ["updated_at", Tue, 14 Feb 2012 08:26:24 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 12:26:25 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 12:26:33 +0400
+  Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (1.2ms)[0m  SELECT "quotes".* FROM "quotes" 
+Completed 200 OK in 12ms (Views: 8.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-02-14 12:26:33 +0400
+Served asset /application.css - 200 OK (99ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-02-14 12:26:33 +0400
+Served asset /application.js - 200 OK (47ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2012-02-14 12:26:34 +0400
+  Processing by QuotesController#create as HTML
+  Parameters: {"quote"=>{"text"=>"mow lawn"}}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)  [["book_id", nil], ["created_at", Tue, 14 Feb 2012 08:26:34 UTC +00:00], ["text", "mow lawn"], ["updated_at", Tue, 14 Feb 2012 08:26:34 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/quotes/980190963
+Completed 302 Found in 11ms
+
+
+Started GET "/quotes/980190963" for 127.0.0.1 at 2012-02-14 12:26:34 +0400
+  Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"980190963"}
+  [1m[35mQuote Load (0.3ms)[0m  SELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1  [["id", "980190963"]]
+Completed 200 OK in 9ms (Views: 4.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/quotes/new" for 127.0.0.1 at 2012-02-14 12:26:34 +0400
+  Processing by QuotesController#new as HTML
+Rendered quotes/_form.html.haml (14.3ms)
+Completed 200 OK in 45ms (Views: 44.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2012-02-14 12:26:34 +0400
+  Processing by QuotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "quote"=>{"text"=>"mow lawn", "book_id"=>""}, "commit"=>"Create Quote"}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)  [["book_id", nil], ["created_at", Tue, 14 Feb 2012 08:26:34 UTC +00:00], ["text", "mow lawn"], ["updated_at", Tue, 14 Feb 2012 08:26:34 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/quotes/980190963
+Completed 302 Found in 4ms
+
+
+Started GET "/quotes/980190963" for 127.0.0.1 at 2012-02-14 12:26:34 +0400
+  Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"980190963"}
+  [1m[35mQuote Load (0.1ms)[0m  SELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1  [["id", "980190963"]]
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2012-02-14 12:28:24 +0400
+  Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT "books".* FROM "books" [0m
+Rendered books/index.html.haml within layouts/application (4.2ms)
+Completed 200 OK in 79ms (Views: 77.9ms | ActiveRecord: 0.2ms)
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM "quotes"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "quotes" ("text", "book_id", "created_at", "updated_at", "id") VALUES ('MyString', 1, '2012-02-14 08:28:25', '2012-02-14 08:28:25', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "quotes" ("text", "book_id", "created_at", "updated_at", "id") VALUES ('MyString', 1, '2012-02-14 08:28:25', '2012-02-14 08:28:25', 298486374)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 12:28:25 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.2ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 29ms (Views: 27.2ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.7ms)[0m  [1mINSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["book_id", nil], ["created_at", Tue, 14 Feb 2012 08:28:25 UTC +00:00], ["text", "Human-Computer Interaction"], ["updated_at", Tue, 14 Feb 2012 08:28:25 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 12:28:25 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["book_id", nil], ["created_at", Tue, 14 Feb 2012 08:28:25 UTC +00:00], ["text", "Human-Computer Interaction"], ["updated_at", Tue, 14 Feb 2012 08:28:25 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 12:28:25 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 12:28:31 +0400
+  Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (1.2ms)[0m  SELECT "quotes".* FROM "quotes" 
+Completed 200 OK in 45ms (Views: 33.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-02-14 12:28:31 +0400
+Served asset /application.js - 200 OK (49ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-02-14 12:28:31 +0400
+Served asset /application.css - 200 OK (18ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2012-02-14 12:28:32 +0400
+  Processing by QuotesController#create as HTML
+  Parameters: {"quote"=>{"text"=>"mow lawn"}}
+  [1m[36m (0.8ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (3.1ms)[0m  INSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)  [["book_id", nil], ["created_at", Tue, 14 Feb 2012 08:28:32 UTC +00:00], ["text", "mow lawn"], ["updated_at", Tue, 14 Feb 2012 08:28:32 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/quotes/980190963
+Completed 302 Found in 20ms
+
+
+Started GET "/quotes/980190963" for 127.0.0.1 at 2012-02-14 12:28:32 +0400
+  Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"980190963"}
+  [1m[35mQuote Load (1.0ms)[0m  SELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1  [["id", "980190963"]]
+Completed 200 OK in 15ms (Views: 6.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/quotes/new" for 127.0.0.1 at 2012-02-14 12:28:32 +0400
+  Processing by QuotesController#new as HTML
+Rendered quotes/_form.html.haml (14.8ms)
+Completed 200 OK in 155ms (Views: 149.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2012-02-14 12:28:32 +0400
+  Processing by QuotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "quote"=>{"text"=>"mow lawn", "book_id"=>""}, "commit"=>"Create Quote"}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)  [["book_id", nil], ["created_at", Tue, 14 Feb 2012 08:28:32 UTC +00:00], ["text", "mow lawn"], ["updated_at", Tue, 14 Feb 2012 08:28:32 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/quotes/980190963
+Completed 302 Found in 4ms
+
+
+Started GET "/quotes/980190963" for 127.0.0.1 at 2012-02-14 12:28:32 +0400
+  Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"980190963"}
+  [1m[35mQuote Load (0.1ms)[0m  SELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1  [["id", "980190963"]]
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.1ms)
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+
+
+Started GET "/quotes/980190962/edit" for 127.0.0.1 at 2012-02-14 12:28:32 +0400
+  Processing by QuotesController#edit as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[35mQuote Load (0.1ms)[0m  SELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1  [["id", "980190962"]]
+Rendered quotes/_form.html.haml (3.7ms)
+Completed 200 OK in 10ms (Views: 8.3ms | ActiveRecord: 0.1ms)
+
+
+Started PUT "/quotes/980190962" for 127.0.0.1 at 2012-02-14 12:28:32 +0400
+  Processing by QuotesController#update as HTML
+  Parameters: {"utf8"=>"✓", "quote"=>{"text"=>"it works", "book_id"=>"1"}, "commit"=>"Update Quote", "id"=>"980190962"}
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1[0m  [["id", "980190962"]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mUPDATE "quotes" SET "text" = 'it works', "updated_at" = '2012-02-14 08:28:32.582038' WHERE "quotes"."id" = 980190962[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/quotes/980190962
+Completed 302 Found in 6ms
+
+
+Started GET "/quotes/980190962" for 127.0.0.1 at 2012-02-14 12:28:32 +0400
+  Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1[0m  [["id", "980190962"]]
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2012-02-14 12:54:20 +0400
+  Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.5ms)[0m  [1mSELECT "books".* FROM "books" [0m
+Rendered books/index.html.haml within layouts/application (7.0ms)
+Completed 200 OK in 82ms (Views: 79.9ms | ActiveRecord: 0.5ms)
+  [1m[35mFixture Delete (0.6ms)[0m  DELETE FROM "quotes"
+  [1m[36mFixture Insert (1.2ms)[0m  [1mINSERT INTO "quotes" ("text", "book_id", "created_at", "updated_at", "id") VALUES ('MyString', 1, '2012-02-14 08:54:20', '2012-02-14 08:54:20', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "quotes" ("text", "book_id", "created_at", "updated_at", "id") VALUES ('MyString', 1, '2012-02-14 08:54:20', '2012-02-14 08:54:20', 298486374)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 12:54:21 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.2ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 28ms (Views: 25.3ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (6.2ms)[0m  [1mINSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["book_id", nil], ["created_at", Tue, 14 Feb 2012 08:54:21 UTC +00:00], ["text", "Human-Computer Interaction"], ["updated_at", Tue, 14 Feb 2012 08:54:21 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 12:54:21 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["book_id", nil], ["created_at", Tue, 14 Feb 2012 08:54:21 UTC +00:00], ["text", "Human-Computer Interaction"], ["updated_at", Tue, 14 Feb 2012 08:54:21 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 12:54:21 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.5ms)[0m  [1mSELECT "quotes".* FROM "quotes" [0m
+Completed 200 OK in 6ms (Views: 2.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-02-14 12:54:29 +0400
+  Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.5ms)[0m  SELECT "quotes".* FROM "quotes" 
+Completed 200 OK in 6ms (Views: 3.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-02-14 12:54:29 +0400
+Served asset /application.css - 200 OK (30ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-02-14 12:54:29 +0400
+Served asset /application.js - 200 OK (85ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2012-02-14 12:54:29 +0400
+  Processing by QuotesController#create as HTML
+  Parameters: {"quote"=>{"text"=>"mow lawn"}}
+  [1m[36m (0.5ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)  [["book_id", nil], ["created_at", Tue, 14 Feb 2012 08:54:29 UTC +00:00], ["text", "mow lawn"], ["updated_at", Tue, 14 Feb 2012 08:54:29 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/quotes/980190963
+Completed 302 Found in 6ms
+
+
+Started GET "/quotes/980190963" for 127.0.0.1 at 2012-02-14 12:54:29 +0400
+  Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"980190963"}
+  [1m[35mQuote Load (0.2ms)[0m  SELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1  [["id", "980190963"]]
+Completed 200 OK in 10ms (Views: 5.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/quotes/new" for 127.0.0.1 at 2012-02-14 12:54:29 +0400
+  Processing by QuotesController#new as HTML
+Rendered quotes/_form.html.haml (92.2ms)
+Completed 200 OK in 117ms (Views: 116.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2012-02-14 12:54:30 +0400
+  Processing by QuotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "quote"=>{"text"=>"mow lawn", "book_id"=>""}, "commit"=>"Create Quote"}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at") VALUES (?, ?, ?, ?)  [["book_id", nil], ["created_at", Tue, 14 Feb 2012 08:54:30 UTC +00:00], ["text", "mow lawn"], ["updated_at", Tue, 14 Feb 2012 08:54:30 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/quotes/980190963
+Completed 302 Found in 4ms
+
+
+Started GET "/quotes/980190963" for 127.0.0.1 at 2012-02-14 12:54:30 +0400
+  Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"980190963"}
+  [1m[35mQuote Load (0.1ms)[0m  SELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1  [["id", "980190963"]]
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.1ms)
+  [1m[36mQuote Load (0.2ms)[0m  [1mSELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+
+
+Started GET "/quotes/980190962/edit" for 127.0.0.1 at 2012-02-14 12:54:30 +0400
+  Processing by QuotesController#edit as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[35mQuote Load (0.1ms)[0m  SELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1  [["id", "980190962"]]
+Rendered quotes/_form.html.haml (3.7ms)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.1ms)
+
+
+Started PUT "/quotes/980190962" for 127.0.0.1 at 2012-02-14 12:54:30 +0400
+  Processing by QuotesController#update as HTML
+  Parameters: {"utf8"=>"✓", "quote"=>{"text"=>"it works", "book_id"=>"1"}, "commit"=>"Update Quote", "id"=>"980190962"}
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1[0m  [["id", "980190962"]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mUPDATE "quotes" SET "text" = 'it works', "updated_at" = '2012-02-14 08:54:30.242130' WHERE "quotes"."id" = 980190962[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/quotes/980190962
+Completed 302 Found in 7ms
+
+
+Started GET "/quotes/980190962" for 127.0.0.1 at 2012-02-14 12:54:30 +0400
+  Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1[0m  [["id", "980190962"]]
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+
+
+Started GET "/books" for 127.0.0.1 at 2012-11-26 18:48:58 +0400
+  Processing by BooksController#index as HTML
+  [1m[36mSQL (0.4ms)[0m  [1mSELECT "books"."id" AS t0_r0, "books"."title" AS t0_r1, "books"."author_id" AS t0_r2, "books"."cover_id" AS t0_r3, "books"."created_at" AS t0_r4, "books"."updated_at" AS t0_r5, "books"."import_url" AS t0_r6, "books"."genre" AS t0_r7, "books"."parent_id" AS t0_r8, "books"."lft" AS t0_r9, "books"."rgt" AS t0_r10, "books"."human_id" AS t0_r11, "quotes"."id" AS t1_r0, "quotes"."text" AS t1_r1, "quotes"."book_id" AS t1_r2, "quotes"."created_at" AS t1_r3, "quotes"."updated_at" AS t1_r4, "quotes"."user_id" AS t1_r5 FROM "books" LEFT OUTER JOIN "quotes" ON "quotes"."book_id" = "books"."id" WHERE (quotes.id IS NOT NULL)[0m
+Rendered books/index.html.haml within layouts/application (16.3ms)
+Rendered shared/_signin_or_signup_bar.html.haml (26.9ms)
+Rendered shared/_about.html.haml (4.0ms)
+Rendered shared/_header.html.haml (39.8ms)
+Rendered shared/_footer.html.haml (2.6ms)
+Rendered shared/_metrika.html.haml (3.1ms)
+Completed 200 OK in 336ms (Views: 283.9ms | ActiveRecord: 0.4ms)
+  [1m[35mFixture Delete (0.8ms)[0m  DELETE FROM "quotes"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "quotes" ("text", "book_id", "created_at", "updated_at", "id") VALUES ('MyString', 1, '2012-11-26 14:48:59', '2012-11-26 14:48:59', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "quotes" ("text", "book_id", "created_at", "updated_at", "id") VALUES ('MyString', 1, '2012-11-26 14:48:59', '2012-11-26 14:48:59', 298486374)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-11-26 18:48:59 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.3ms)[0m  [1mSELECT "quotes".* FROM "quotes" ORDER BY created_at DESC LIMIT 10[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "quotes_tags" ON "tags"."id" = "quotes_tags"."tag_id" WHERE "quotes_tags"."quote_id" = 980190962
+Rendered shared/_signin_or_signup_bar.html.haml (8.2ms)
+Rendered shared/_about.html.haml (0.7ms)
+Rendered shared/_header.html.haml (11.6ms)
+Rendered shared/_footer.html.haml (0.1ms)
+Rendered shared/_metrika.html.haml (0.1ms)
+Completed 200 OK in 277ms (Views: 176.9ms | ActiveRecord: 0.9ms)
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (9.7ms)[0m  INSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)  [["book_id", nil], ["created_at", Mon, 26 Nov 2012 14:48:59 UTC +00:00], ["text", "Human-Computer Interaction"], ["updated_at", Mon, 26 Nov 2012 14:48:59 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-11-26 18:48:59 +0400
+  Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.2ms)[0m  SELECT "quotes".* FROM "quotes" ORDER BY created_at DESC LIMIT 10
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "quotes_tags" ON "tags"."id" = "quotes_tags"."tag_id" WHERE "quotes_tags"."quote_id" = 298486374
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "quotes_tags" ON "tags"."id" = "quotes_tags"."tag_id" WHERE "quotes_tags"."quote_id" = 980190962[0m
+Rendered shared/_signin_or_signup_bar.html.haml (6.7ms)
+Rendered shared/_about.html.haml (0.8ms)
+Rendered shared/_header.html.haml (9.6ms)
+Rendered shared/_footer.html.haml (0.1ms)
+Rendered shared/_metrika.html.haml (0.1ms)
+Completed 200 OK in 18ms (Views: 14.7ms | ActiveRecord: 0.6ms)
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["book_id", nil], ["created_at", Mon, 26 Nov 2012 14:48:59 UTC +00:00], ["text", "Human-Computer Interaction"], ["updated_at", Mon, 26 Nov 2012 14:48:59 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-11-26 18:48:59 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.2ms)[0m  [1mSELECT "quotes".* FROM "quotes" ORDER BY created_at DESC LIMIT 10[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "quotes_tags" ON "tags"."id" = "quotes_tags"."tag_id" WHERE "quotes_tags"."quote_id" = 298486374[0m
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "quotes_tags" ON "tags"."id" = "quotes_tags"."tag_id" WHERE "quotes_tags"."quote_id" = 980190962
+Rendered shared/_signin_or_signup_bar.html.haml (7.0ms)
+Rendered shared/_about.html.haml (0.8ms)
+Rendered shared/_header.html.haml (9.9ms)
+Rendered shared/_footer.html.haml (0.1ms)
+Rendered shared/_metrika.html.haml (0.1ms)
+Completed 200 OK in 84ms (Views: 78.7ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2012-11-26 18:49:00 +0400
+  Processing by QuotesController#create as HTML
+  Parameters: {"quote"=>{"text"=>"mow lawn"}}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)  [["book_id", nil], ["created_at", Mon, 26 Nov 2012 14:49:00 UTC +00:00], ["text", "mow lawn"], ["updated_at", Mon, 26 Nov 2012 14:49:00 UTC +00:00], ["user_id", 0]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/
+Completed 302 Found in 6ms
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-26 18:49:00 +0400
+  Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.3ms)[0m  SELECT "quotes".* FROM "quotes" ORDER BY created_at DESC LIMIT 10
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 0 LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "quotes_tags" ON "tags"."id" = "quotes_tags"."tag_id" WHERE "quotes_tags"."quote_id" = 298486374
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "quotes_tags" ON "tags"."id" = "quotes_tags"."tag_id" WHERE "quotes_tags"."quote_id" = 980190962[0m
+Rendered shared/_signin_or_signup_bar.html.haml (7.6ms)
+Rendered shared/_about.html.haml (1.1ms)
+Rendered shared/_header.html.haml (11.6ms)
+Rendered shared/_footer.html.haml (0.1ms)
+Rendered shared/_metrika.html.haml (0.1ms)
+Completed 200 OK in 21ms (Views: 16.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/quotes/new" for 127.0.0.1 at 2012-11-26 18:49:00 +0400
+  Processing by QuotesController#new as HTML
+  [1m[35mBook Load (0.3ms)[0m  SELECT "books".* FROM "books" ORDER BY title
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" ORDER BY keyword[0m
+Rendered quotes/_form.html.haml (12.5ms)
+Rendered shared/_signin_or_signup_bar.html.haml (7.1ms)
+Rendered shared/_about.html.haml (0.7ms)
+Rendered shared/_header.html.haml (10.6ms)
+Rendered shared/_footer.html.haml (0.1ms)
+Rendered shared/_metrika.html.haml (0.1ms)
+Completed 200 OK in 34ms (Views: 31.4ms | ActiveRecord: 0.4ms)
+  [1m[35mQuote Load (0.2ms)[0m  SELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1  [["id", 980190962]]
+
+
+Started GET "/quotes/980190962/edit" for 127.0.0.1 at 2012-11-26 18:49:00 +0400
+  Processing by QuotesController#edit as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1[0m  [["id", "980190962"]]
+  [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books" ORDER BY title
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = 1 LIMIT 1[0m
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" ORDER BY keyword
+Rendered quotes/_form.html.haml (12.7ms)
+Rendered shared/_signin_or_signup_bar.html.haml (8.1ms)
+Rendered shared/_about.html.haml (0.7ms)
+Rendered shared/_header.html.haml (10.9ms)
+Rendered shared/_footer.html.haml (0.1ms)
+Rendered shared/_metrika.html.haml (0.1ms)
+Completed 200 OK in 32ms (Views: 30.1ms | ActiveRecord: 0.6ms)
+  [1m[36mFixture Delete (0.8ms)[0m  [1mDELETE FROM "quotes"[0m
+  [1m[35mFixture Insert (2.0ms)[0m  INSERT INTO "quotes" ("text", "book_id", "created_at", "updated_at", "id") VALUES ('MyString', 1, '2012-11-26 14:53:02', '2012-11-26 14:53:02', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "quotes" ("text", "book_id", "created_at", "updated_at", "id") VALUES ('MyString', 1, '2012-11-26 14:53:02', '2012-11-26 14:53:02', 298486374)[0m
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-11-26 18:53:02 +0400
+  Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.3ms)[0m  SELECT "quotes".* FROM "quotes" ORDER BY created_at DESC LIMIT 10
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mTag Load (0.5ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "quotes_tags" ON "tags"."id" = "quotes_tags"."tag_id" WHERE "quotes_tags"."quote_id" = 980190962[0m
+Rendered quotes/index.html.haml within layouts/application (162.6ms)
+Rendered shared/_signin_or_signup_bar.html.haml (26.7ms)
+Rendered shared/_about.html.haml (15.6ms)
+Rendered shared/_header.html.haml (51.0ms)
+Rendered shared/_footer.html.haml (2.7ms)
+Rendered shared/_metrika.html.haml (5.0ms)
+Completed 200 OK in 581ms (Views: 377.2ms | ActiveRecord: 1.5ms)
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (81.0ms)[0m  [1mINSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["book_id", nil], ["created_at", Mon, 26 Nov 2012 14:53:03 UTC +00:00], ["text", "Human-Computer Interaction"], ["updated_at", Mon, 26 Nov 2012 14:53:03 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-11-26 18:53:03 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.3ms)[0m  [1mSELECT "quotes".* FROM "quotes" ORDER BY created_at DESC LIMIT 10[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "quotes_tags" ON "tags"."id" = "quotes_tags"."tag_id" WHERE "quotes_tags"."quote_id" = 298486374[0m
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "quotes_tags" ON "tags"."id" = "quotes_tags"."tag_id" WHERE "quotes_tags"."quote_id" = 980190962
+Rendered shared/_signin_or_signup_bar.html.haml (8.2ms)
+Rendered shared/_about.html.haml (0.7ms)
+Rendered shared/_header.html.haml (11.5ms)
+Rendered shared/_footer.html.haml (0.1ms)
+Rendered shared/_metrika.html.haml (0.1ms)
+Completed 200 OK in 20ms (Views: 17.0ms | ActiveRecord: 0.6ms)
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (2.8ms)[0m  INSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)  [["book_id", nil], ["created_at", Mon, 26 Nov 2012 14:53:03 UTC +00:00], ["text", "Human-Computer Interaction"], ["updated_at", Mon, 26 Nov 2012 14:53:03 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/quotes" for 127.0.0.1 at 2012-11-26 18:53:03 +0400
+  Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.2ms)[0m  SELECT "quotes".* FROM "quotes" ORDER BY created_at DESC LIMIT 10
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "quotes_tags" ON "tags"."id" = "quotes_tags"."tag_id" WHERE "quotes_tags"."quote_id" = 298486374
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "quotes_tags" ON "tags"."id" = "quotes_tags"."tag_id" WHERE "quotes_tags"."quote_id" = 980190962[0m
+Rendered shared/_signin_or_signup_bar.html.haml (7.2ms)
+Rendered shared/_about.html.haml (0.7ms)
+Rendered shared/_header.html.haml (9.9ms)
+Rendered shared/_footer.html.haml (0.1ms)
+Rendered shared/_metrika.html.haml (0.1ms)
+Completed 200 OK in 18ms (Views: 14.5ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2012-11-26 18:53:04 +0400
+  Processing by QuotesController#create as HTML
+  Parameters: {"quote"=>{"text"=>"mow lawn"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.8ms)[0m  [1mINSERT INTO "quotes" ("book_id", "created_at", "text", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["book_id", nil], ["created_at", Mon, 26 Nov 2012 14:53:04 UTC +00:00], ["text", "mow lawn"], ["updated_at", Mon, 26 Nov 2012 14:53:04 UTC +00:00], ["user_id", 0]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 9ms
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-26 18:53:04 +0400
+  Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.3ms)[0m  [1mSELECT "quotes".* FROM "quotes" ORDER BY created_at DESC LIMIT 10[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 0 LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "quotes_tags" ON "tags"."id" = "quotes_tags"."tag_id" WHERE "quotes_tags"."quote_id" = 298486374[0m
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "quotes_tags" ON "tags"."id" = "quotes_tags"."tag_id" WHERE "quotes_tags"."quote_id" = 980190962
+Rendered shared/_signin_or_signup_bar.html.haml (7.5ms)
+Rendered shared/_about.html.haml (0.9ms)
+Rendered shared/_header.html.haml (76.7ms)
+Rendered shared/_footer.html.haml (0.1ms)
+Rendered shared/_metrika.html.haml (0.2ms)
+Completed 200 OK in 86ms (Views: 82.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/quotes/new" for 127.0.0.1 at 2012-11-26 18:53:04 +0400
+  Processing by QuotesController#new as HTML
+  [1m[36mBook Load (0.7ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY title[0m
+  [1m[35mTag Load (0.5ms)[0m  SELECT "tags".* FROM "tags" ORDER BY keyword
+Rendered quotes/_form.html.haml (12.8ms)
+Rendered shared/_signin_or_signup_bar.html.haml (7.2ms)
+Rendered shared/_about.html.haml (0.7ms)
+Rendered shared/_header.html.haml (10.3ms)
+Rendered shared/_footer.html.haml (0.1ms)
+Rendered shared/_metrika.html.haml (0.1ms)
+Completed 200 OK in 33ms (Views: 30.0ms | ActiveRecord: 1.2ms)
+  [1m[36mQuote Load (0.2ms)[0m  [1mSELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+
+
+Started GET "/quotes/980190962/edit" for 127.0.0.1 at 2012-11-26 18:53:04 +0400
+  Processing by QuotesController#edit as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[35mQuote Load (0.1ms)[0m  SELECT "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT 1  [["id", "980190962"]]
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY title[0m
+  [1m[35mBook Load (0.1ms)[0m  SELECT "books".* FROM "books" WHERE "books"."id" = 1 LIMIT 1
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" ORDER BY keyword[0m
+Rendered quotes/_form.html.haml (11.6ms)
+Rendered shared/_signin_or_signup_bar.html.haml (7.4ms)
+Rendered shared/_about.html.haml (0.8ms)
+Rendered shared/_header.html.haml (10.8ms)
+Rendered shared/_footer.html.haml (0.1ms)
+Rendered shared/_metrika.html.haml (0.1ms)
+Completed 200 OK in 30ms (Views: 28.1ms | ActiveRecord: 0.6ms)

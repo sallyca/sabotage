@@ -1,0 +1,22 @@
+(function() {
+
+  jQuery(function() {
+    var Draw;
+    $('#new-sticker').fancybox({
+      autoDimensions: false,
+      width: 630,
+      autoDimensions: true
+    });
+    $("#sticker-quote-complete").autocomplete({
+      source: $("#sticker-quote-complete").data('autocomplete-source')
+    });
+    $("#create-sticker").click(function() {
+      return $('#new_sticker').submit();
+    });
+    return Draw = function(scope) {
+      var new_sticker;
+      return new_sticker = scope.find("#new-sticker");
+    };
+  });
+
+}).call(this);

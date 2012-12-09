@@ -1,0 +1,4 @@
+/* line 1, /Users/macbook/Sites/bookmate/app/assets/stylesheets/layout/_user_bar.css.scss */
+.user-bar {
+  float: right;
+}

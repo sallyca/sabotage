@@ -1,0 +1,9 @@
+(function() {
+
+  jQuery(function() {
+    return $('#new-sticker').click(function() {
+      return alert("go fuck yourself");
+    });
+  });
+
+}).call(this);

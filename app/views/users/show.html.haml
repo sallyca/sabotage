@@ -1,0 +1,23 @@
+%h1="#{@user.username}'s house"
+.left-menu
+  .avatar
+    =image_tag("/assets/without-av.png")
+.right-content
+  .quote-list
+    - @user.quotes.all(:limit => 8, :order=>"created_at desc").each do |quote| 
+      .text
+        = quote.text
+      .clearfix
+      -unless params[:tag].present?
+        .bottom
+          .likes
+            = form_for quote, :url => :like, :remote => true, :html => {:id=>"quoteform_#{quote.id}",:class => "vote-counter", :data => {:type => :html, :target => "#{quote.id}"}} do |f|
+              = f.hidden_field :id, :value => quote.id
+              = link_to "", "#", :class => "like-quote", :onclick=>"$('#quoteform_#{quote.id}').submit()"
+          .points
+            = render "likes/like", :quote => quote
+        .clearfix
+  .sticker-board-small
+    - @user.quotes.order("RANDOM()").limit(2).each do |quote|
+      .sticker
+        =render "/stickers/sticker", {:sticker => Sticker.new(:quote => quote), :color=> "pink"}

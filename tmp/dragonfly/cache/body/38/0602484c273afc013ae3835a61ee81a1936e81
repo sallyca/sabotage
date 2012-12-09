@@ -1,0 +1,5 @@
+/* line 1, /Users/macbook/Sites/bookmate/app/assets/stylesheets/_global.scss */
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+}

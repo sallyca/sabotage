@@ -1,0 +1,29 @@
+(function() {
+
+  jQuery(function() {
+    var Draw, i;
+    $('#new-sticker').fancybox({
+      autoDimensions: false,
+      width: 630,
+      autoDimensions: true
+    });
+    $("#sticker-quote-complete").autocomplete({
+      source: $("#sticker-quote-complete").data('autocomplete-source')
+    });
+    i = 1;
+    $("#create-sticker").click(function() {
+      $("<div />", {
+        "class": "sticker-back",
+        id: "sticker" + i
+      }).append($("<label />", {
+        id: "name" + i
+      })).appendTo("#sticker-board");
+      return i++;
+    });
+    return Draw = function(scope) {
+      var new_sticker;
+      return new_sticker = scope.find("#new-sticker");
+    };
+  });
+
+}).call(this);

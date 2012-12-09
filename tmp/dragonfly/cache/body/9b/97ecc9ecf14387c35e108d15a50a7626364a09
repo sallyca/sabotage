@@ -1,0 +1,7 @@
+/* line 4, /Users/macbook/Sites/bookmate/app/assets/stylesheets/stickers.css.scss */
+.sticker-back {
+  height: 100px;
+  width: 100px;
+  border: 1px solid #999;
+  background-color: #ffbbea;
+}

@@ -1,0 +1,7 @@
+/* line 1, /Users/macbook/Sites/bookmate/app/assets/stylesheets/layout/_user_bar.css.scss */
+.user-bar {
+  width: 300px;
+  float: right;
+  font-size: 12px;
+  font-family: Georgia, serif;
+}

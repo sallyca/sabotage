@@ -1,0 +1,14 @@
+(function() {
+
+  jQuery(function() {
+    $('#new-sticker').fancybox({
+      autoDimensions: false,
+      width: 630,
+      autoDimensions: true
+    });
+    return $("#sticker-quote-complete").autocomplete({
+      source: $("#sticker-quote-complete").data('autocomplete-source')
+    });
+  });
+
+}).call(this);

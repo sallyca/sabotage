@@ -1,0 +1,5 @@
+/* line 1, /Users/macbook/Sites/bookmate/app/assets/stylesheets/layout/_signin_or_signup_bar.css.scss */
+#signin_or_signup_bar {
+  float: right;
+  position: relative;
+}

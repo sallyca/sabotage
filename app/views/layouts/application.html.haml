@@ -1,0 +1,18 @@
+!!!
+%head
+  %title= "Quotemate"
+  = stylesheet_link_tag    "application"
+  = javascript_include_tag "application"
+  = csrf_meta_tags
+#header
+  = render "shared/header"
+#content-wrapper
+  = yield
+#footer
+  =render "shared/footer"
+=render "shared/metrika"
+
+= yield :js
+  
+  
+

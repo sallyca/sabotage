@@ -1,0 +1,24 @@
+/* line 1, /Users/macbook/Sites/bookmate/app/assets/stylesheets/main.css.scss */
+#content-wrapper {
+  width: 870px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 7, /Users/macbook/Sites/bookmate/app/assets/stylesheets/main.css.scss */
+label, a, p {
+  font-family: Georgia, serif;
+}
+
+/* line 33, /Users/macbook/Sites/bookmate/app/assets/stylesheets/main.css.scss */
+a.submit:hover, form input[type='submit']:hover {
+  background: #675264;
+  background: -webkit-gradient(linear, left top, left bottom, from(#b792b1), to(#675264));
+  background: -moz-linear-gradient(top, #b792b1, #675264);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b792b1', endColorstr='#675264');
+}
+
+/* line 40, /Users/macbook/Sites/bookmate/app/assets/stylesheets/main.css.scss */
+a.submit:visited, form input[type='submit']:visited {
+  color: white;
+}

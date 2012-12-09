@@ -1,0 +1,5 @@
+/* line 1, ../../../app/assets/stylesheets/layout/_about.css.scss */
+#about p {
+  font-family: Georgia, serif;
+  font-size: 15px;
+}

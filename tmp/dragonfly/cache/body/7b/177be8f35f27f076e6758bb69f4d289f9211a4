@@ -1,0 +1,45 @@
+/* line 1, ../../../app/assets/stylesheets/layout/_header.css.scss */
+#header-site {
+  width: 830px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #d9d9d9;
+  color: black;
+  font-size: 18px;
+  height: 30px;
+  margin-bottom: 50px;
+  padding: 20px 25px;
+}
+
+/* line 13, ../../../app/assets/stylesheets/layout/_header.css.scss */
+#header {
+  width: 830px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  height: 30px;
+  margin-bottom: 50px;
+  padding: 20px 25px;
+}
+
+/* line 23, ../../../app/assets/stylesheets/layout/_header.css.scss */
+#header a {
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* line 28, ../../../app/assets/stylesheets/layout/_header.css.scss */
+#header a:hover {
+  background-color: transparent;
+  color: red;
+}
+
+/* line 33, ../../../app/assets/stylesheets/layout/_header.css.scss */
+.top-bar {
+  float: left;
+}
+
+/* line 37, ../../../app/assets/stylesheets/layout/_header.css.scss */
+.user-bar {
+  color: #CDCDCD;
+}

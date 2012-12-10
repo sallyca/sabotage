@@ -7,7 +7,7 @@ gem 'rails', '3.1.0'
 
 
 gem 'nokogiri'
-gem 'activeadmin'
+gem 'activeadmin', :git => "git://github.com/gregbell/active_admin.git"
 gem 'dragonfly'
 gem 'rack-cache', :require => 'rack/cache'
 gem 'rack-rewrite'

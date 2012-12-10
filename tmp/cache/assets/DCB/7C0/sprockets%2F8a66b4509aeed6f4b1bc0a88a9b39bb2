@@ -1,14 +1,14 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1355083629.442705:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1355140399.716168:@value{I"
 class:EFI"BundledAsset;
 FI"id;
-F"%8941d62d9e543788e63e1507ee70a6e9I"logical_path;
+F"%a917210c362a09e87c9f3201e439043bI"logical_path;
 F"tokeninput.jsI"pathname;
 FI"/$root/app/assets/javascripts/tokeninput.js;
 FI"content_type;
 FI"application/javascript;
 FI"
 mtime;
-FI"2011-08-07T15:58:20+04:00;
+FI"2012-12-10T15:51:29+04:00;
 FI"	body;
 FI"÷k/*
  * jQuery Plugin: Tokenizing Autocomplete Text Entry
@@ -879,7 +879,7 @@ F[{I"	path;
 FI"/$root/app/assets/javascripts/tokeninput.js;
 FI"
 mtime;
-FIu:	TimeëÜ€  @é:@_zoneI"MSK;
+FIu:	TimeK-€  ÐÍ:@_zoneI"MSK;
 T:offseti@8I"hexdigest;
 F"%e49480e74e334bdc82724a747a8264e9I"_version;
 F"%0868aba5d4b750d3a9421721ea3d9b9c

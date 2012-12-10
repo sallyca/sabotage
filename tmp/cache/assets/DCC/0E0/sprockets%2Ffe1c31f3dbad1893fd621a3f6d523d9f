@@ -1,4 +1,4 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1355083647.648087:@value{	I"length:EFi’	I"digest;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1355140400.440497:@value{	I"length:EFi’	I"digest;
 F"%d5a6da821f6722000d332f02ab018629I"source;
 FI"’	/* line 1, ../../../app/assets/stylesheets/layout/_footer.css.scss */
 #footer {
@@ -24,4 +24,4 @@ FI"’	/* line 1, ../../../app/assets/stylesheets/layout/_footer.css.scss */
 }
 ;
 FI"_version;
-F"%8c51d70888f70a6a48e2f6682c5a5409
+F"%f31716a9a690fd32af9ae7825978fb6c

@@ -1,4 +1,4 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1355083630.763519:@value{	I"length:EFiI"digest;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1355140400.5930061:@value{	I"length:EFiI"digest;
 F"%74af2fc6e5a06b730ed4b0c3a9eb7467I"source;
 FI"/* line 1, ../../../app/assets/stylesheets/layout/_user_bar.css.scss */
 .user-bar {
@@ -13,4 +13,4 @@ FI"/* line 1, ../../../app/assets/stylesheets/layout/_user_bar.css.scss */
 }
 ;
 FI"_version;
-F"%975d2c8697ff01bf8878f2d29f7d29c3
+F"%50b224d03822f7e4fb35986060f19d6c

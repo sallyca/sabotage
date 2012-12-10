@@ -1,4 +1,4 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1355083631.323624:@value{	I"length:EFi×	I"digest;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1355140401.0059571:@value{	I"length:EFi×	I"digest;
 F"%db9dba9c002df440b2098384cd836fd8I"source;
 FI"×	/* Example tokeninput style #2: Facebook style */
 
@@ -125,4 +125,4 @@ div.token-input-dropdown-facebook ul li.token-input-selected-dropdown-item-faceb
 }
 ;
 FI"_version;
-F"%8b0d351dd665a0880fb475eb1f9534ed
+F"%8d89c8cd03a69b6a322d701696f81589

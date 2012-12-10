@@ -1,4 +1,4 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1355083631.4380438:@value{	I"length:EFi,I"digest;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1355140401.1441631:@value{	I"length:EFi,I"digest;
 F"%bc240b701b4aa095df413e558b965afcI"source;
 FI",/* Example tokeninput style #1: Token vertical list*/
 
@@ -116,4 +116,4 @@ div.token-input-dropdown ul li.token-input-selected-dropdown-item {
 
 ;
 FI"_version;
-F"%38460ed3a5a18effaa7aa4fd2ec52749
+F"%96a1ff364c5754aead634dbb5e0d0a75

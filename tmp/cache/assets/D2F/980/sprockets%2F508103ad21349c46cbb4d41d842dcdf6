@@ -1,4 +1,4 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1355083631.255407:@value{	I"length:EFiöI"digest;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1355140400.946965:@value{	I"length:EFiöI"digest;
 F"%cdc36edef3e1ba70c9e0023b13b131bdI"source;
 FI"ö/* line 4, ../../app/assets/stylesheets/stickers.css.scss */
 .sticker-back {
@@ -87,4 +87,4 @@ FI"ö/* line 4, ../../app/assets/stylesheets/stickers.css.scss */
 }
 ;
 FI"_version;
-F"%a53041e49a9682cdb1632ea104418be5
+F"%37942934fa3b2769a4881866342602bc

@@ -1,4 +1,4 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1355083630.4784331:@value{	I"length:EFi…I"digest;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1355140411.9916632:@value{	I"length:EFi…I"digest;
 F"%082728ded823cd4d675bcd810acaca48I"source;
 FI"…/* line 5, ../../app/assets/stylesheets/books.css.scss */
 h1 {
@@ -20,4 +20,4 @@ td.quote {
 }
 ;
 FI"_version;
-F"%b5075f8930658205a64c48860245962a
+F"%81501e79f7e30d814a89b465104e41e7

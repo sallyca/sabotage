@@ -17,6 +17,8 @@ Bookmate::Application.routes.draw do
   get 'register' => 'users#new', :as => :register
   get 'login' => 'sessions#new', :as => :login
   get 'logout' => 'sessions#destroy', :as => :logout
+
+  get 'adminit' => 'quotes#admin', :as => :adminit
   
   ActiveAdmin.routes(self)
 

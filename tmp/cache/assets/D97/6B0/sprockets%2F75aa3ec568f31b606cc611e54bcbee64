@@ -1,4 +1,4 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1355083631.388278:@value{	I"length:EFifI"digest;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1355140401.1162:@value{	I"length:EFifI"digest;
 F"%5b360b5a641cef3c9129cd4813e927afI"source;
 FI"f/* Example tokeninput style #2: Mac Style */
 
@@ -207,4 +207,4 @@ div.token-input-dropdown-mac ul li.token-input-selected-dropdown-item-mac.odd sp
 }
 ;
 FI"_version;
-F"%c9af2646ba082380cd187f66e8f270fb
+F"%f27f3714745d7666f4ff99bcbda58e3a

@@ -1,0 +1,21 @@
+<h1>Наведём порядок?</h1>
+
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @quotes.each do |quote| %>
+  <tr>
+    <td><%=quote.text%></td>
+    <td><%= link_to 'поменять', edit_quote_path(quote) %></td>
+    <td><%= link_to 'покончить с этим', quote, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Quote', new_quote_path, {:class=>"submit"} %>

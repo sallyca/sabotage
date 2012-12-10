@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1355083620.559529:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1355140394.835364:@value{I"
 class:EFI"StaticAsset;
 FI"id;
-F"%15a7b135bd10305d32146eb0ff0728cfI"logical_path;
+F"%ee555e430bc86f2e2f2a2a9553d8f553I"logical_path;
 FI"separator.gif;
 TI"pathname;
 FI"*$root/app/assets/images/separator.gif;
@@ -9,7 +9,7 @@ FI"content_type;
 FI"image/gif;
 FI"
 mtime;
-FI"2012-07-23T03:09:20+04:00;
+FI"2012-12-10T15:51:29+04:00;
 FI"length;
 FI"	1347;
 FI"digest;

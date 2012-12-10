@@ -1,6 +1,9 @@
 class QuotesController < ApplicationController
   # GET /quotes
   # GET /quotes.json
+
+  respond_to :html
+
   def index
     @tag = nil
     if params[:tag].present?
@@ -18,6 +21,11 @@ class QuotesController < ApplicationController
       format.html # index.html.erb
       format.json { render json: @quotes }
     end
+  end
+
+  def admin
+    @quotes = Quote.all
+    respond_with(@quotes)
   end
 
   # GET /quotes/1

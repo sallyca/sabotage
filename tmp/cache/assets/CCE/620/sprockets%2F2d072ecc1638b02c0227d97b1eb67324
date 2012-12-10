@@ -1,0 +1,15 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1355137703.85649:@value{I"
+class:EFI"StaticAsset;
+FI"id;
+F"%f348e6eae46822f380bb1c814b54c049I"logical_path;
+F"5active_admin/datepicker/datepicker-header-bg.pngI"pathname;
+F"€/Users/macbook/.rvm/gems/ruby-1.9.3-p0/gems/activeadmin-0.5.1/app/assets/images/active_admin/datepicker/datepicker-header-bg.pngI"content_type;
+FI"image/png;
+FI"
+mtime;
+FI"2012-12-09T23:59:34+04:00;
+FI"length;
+FI"	1701;
+FI"digest;
+F"%0358c3a7ad875b92bfa966ee235cac49I"_version;
+F"%df7525e917401704ef453cb56bf16697

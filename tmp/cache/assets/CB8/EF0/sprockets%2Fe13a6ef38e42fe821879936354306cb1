@@ -1,0 +1,15 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1355137703.8494651:@value{I"
+class:EFI"StaticAsset;
+FI"id;
+F"%bc093170755f989a5001ef4abd47f2e6I"logical_path;
+F"&active_admin/admin_notes_icon.pngI"pathname;
+F"v/Users/macbook/.rvm/gems/ruby-1.9.3-p0/gems/activeadmin-0.5.1/app/assets/images/active_admin/admin_notes_icon.pngI"content_type;
+FI"image/png;
+FI"
+mtime;
+FI"2012-12-09T23:59:34+04:00;
+FI"length;
+FI"716;
+FI"digest;
+F"%60d9abcda17b3a735ed5f00f04bfa6afI"_version;
+F"%df7525e917401704ef453cb56bf16697

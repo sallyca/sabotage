@@ -1,0 +1,15 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1355137704.01807:@value{I"
+class:EFI"StaticAsset;
+FI"id;
+F"%45319ec74848faae2bca47da308a812fI"logical_path;
+F"active_admin/orderable.pngI"pathname;
+F"o/Users/macbook/.rvm/gems/ruby-1.9.3-p0/gems/activeadmin-0.5.1/app/assets/images/active_admin/orderable.pngI"content_type;
+FI"image/png;
+FI"
+mtime;
+FI"2012-12-09T23:59:34+04:00;
+FI"length;
+FI"220;
+FI"digest;
+F"%60377fad882a1d856074efafe9bffb74I"_version;
+F"%df7525e917401704ef453cb56bf16697

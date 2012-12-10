@@ -1,94 +1,5 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1355083632.268712:@value{	I"length:EFi­
-I"digest;
-F"%a69e3e0927bfc13102764b7da738e799I"source;
-FI"­
-(function() {
-
-  window.AA.CheckboxToggler = AA.CheckboxToggler = (function() {
-
-    function CheckboxToggler(options, container) {
-      var defaults;
-      this.options = options;
-      this.container = container;
-      defaults = {};
-      this.options = $.extend({}, defaults, options);
-      this._init();
-      this._bind();
-    }
-
-    CheckboxToggler.prototype._init = function() {
-      if (!this.container) {
-        throw new Error("Container element not found");
-      } else {
-        this.$container = $(this.container);
-      }
-      if (!this.$container.find(".toggle_all").length) {
-        throw new Error("'toggle all' checkbox not found");
-      } else {
-        this.toggle_all_checkbox = this.$container.find(".toggle_all");
-      }
-      return this.checkboxes = this.$container.find(":checkbox").not(this.toggle_all_checkbox);
-    };
-
-    CheckboxToggler.prototype._bind = function() {
-      var _this = this;
-      this.checkboxes.bind("change", function(e) {
-        return _this._didChangeCheckbox(e.target);
-      });
-      return this.toggle_all_checkbox.bind("change", function(e) {
-        return _this._didChangeToggleAllCheckbox();
-      });
-    };
-
-    CheckboxToggler.prototype._didChangeCheckbox = function(checkbox) {
-      if (this.checkboxes.filter(":checked").length === this.checkboxes.length - 1) {
-        return this._uncheckToggleAllCheckbox();
-      } else if (this.checkboxes.filter(":checked").length === this.checkboxes.length) {
-        return this._checkToggleAllCheckbox();
-      }
-    };
-
-    CheckboxToggler.prototype._didChangeToggleAllCheckbox = function() {
-      if (this.toggle_all_checkbox.attr("checked") === "checked") {
-        return this._checkAllCheckboxes();
-      } else {
-        return this._uncheckAllCheckboxes();
-      }
-    };
-
-    CheckboxToggler.prototype._uncheckToggleAllCheckbox = function() {
-      return this.toggle_all_checkbox.removeAttr("checked");
-    };
-
-    CheckboxToggler.prototype._checkToggleAllCheckbox = function() {
-      return this.toggle_all_checkbox.attr("checked", "checked");
-    };
-
-    CheckboxToggler.prototype._uncheckAllCheckboxes = function() {
-      var _this = this;
-      return this.checkboxes.each(function(index, el) {
-        $(el).removeAttr("checked");
-        return _this._didChangeCheckbox(el);
-      });
-    };
-
-    CheckboxToggler.prototype._checkAllCheckboxes = function() {
-      var _this = this;
-      return this.checkboxes.each(function(index, el) {
-        $(el).attr("checked", "checked");
-        return _this._didChangeCheckbox(el);
-      });
-    };
-
-    return CheckboxToggler;
-
-  })();
-
-  (function($) {
-    return $.widget.bridge('checkboxToggler', AA.CheckboxToggler);
-  })(jQuery);
-
-}).call(this);
-;
-FI"_version;
-F"%ca373024051ebc94ecafecb3bafe96dd
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1355137704.671488:@value{	I"length:EFi:I"digest;
+F"%a825541205539492801dd87deada7ae9I"source;
+FI":(function(){window.AA.CheckboxToggler=AA.CheckboxToggler=function(){function e(e,t){var n;this.options=e,this.container=t,n={},this.options=$.extend({},n,e),this._init(),this._bind()}return e.prototype._init=function(){if(!this.container)throw new Error("Container element not found");this.$container=$(this.container);if(!this.$container.find(".toggle_all").length)throw new Error("'toggle all' checkbox not found");return this.toggle_all_checkbox=this.$container.find(".toggle_all"),this.checkboxes=this.$container.find(":checkbox").not(this.toggle_all_checkbox)},e.prototype._bind=function(){var e=this;return this.checkboxes.bind("change",function(t){return e._didChangeCheckbox(t.target)}),this.toggle_all_checkbox.bind("change",function(t){return e._didChangeToggleAllCheckbox()})},e.prototype._didChangeCheckbox=function(e){if(this.checkboxes.filter(":checked").length===this.checkboxes.length-1)return this._uncheckToggleAllCheckbox();if(this.checkboxes.filter(":checked").length===this.checkboxes.length)return this._checkToggleAllCheckbox()},e.prototype._didChangeToggleAllCheckbox=function(){return this.toggle_all_checkbox.attr("checked")==="checked"?this._checkAllCheckboxes():this._uncheckAllCheckboxes()},e.prototype._uncheckToggleAllCheckbox=function(){return this.toggle_all_checkbox.removeAttr("checked")},e.prototype._checkToggleAllCheckbox=function(){return this.toggle_all_checkbox.attr("checked","checked")},e.prototype._uncheckAllCheckboxes=function(){var e=this;return this.checkboxes.each(function(t,n){return $(n).removeAttr("checked"),e._didChangeCheckbox(n)})},e.prototype._checkAllCheckboxes=function(){var e=this;return this.checkboxes.each(function(t,n){return $(n).attr("checked","checked"),e._didChangeCheckbox(n)})},e}(),function(e){return e.widget.bridge("checkboxToggler",AA.CheckboxToggler)}(jQuery)}).call(this);;
+TI"_version;
+F"%d83182106e0724a19139a25f879a4c10

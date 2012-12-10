@@ -1,110 +1,5 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1355083632.350911:@value{	I"length:EFiªI"digest;
-F"%3a8a32314ae60d38b6f98173476fc0d5I"source;
-FI"ª(function() {
-
-  window.AA.Popover = AA.Popover = (function() {
-
-    function Popover(options, element) {
-      var defaults;
-      this.options = options;
-      this.element = element;
-      this.$element = $(this.element);
-      defaults = {
-        fadeInDuration: 20,
-        fadeOutDuration: 100,
-        autoOpen: true,
-        pageWrapperElement: "#wrapper",
-        onClickActionItemCallback: null
-      };
-      this.options = $.extend({}, defaults, options);
-      this.$popover = null;
-      this.isOpen = false;
-      if ($(this.$element.attr("href")).length > 0) {
-        this.$popover = $(this.$element.attr("href"));
-      } else {
-        this.$popover = this.$element.next(".popover");
-      }
-      this._buildPopover();
-      this._bind();
-      return this;
-    }
-
-    Popover.prototype.open = function() {
-      this.isOpen = true;
-      this.$popover.fadeIn(this.options.fadeInDuration);
-      this._positionPopover();
-      this._positionNipple();
-      return this;
-    };
-
-    Popover.prototype.close = function() {
-      this.isOpen = false;
-      this.$popover.fadeOut(this.options.fadeOutDuration);
-      return this;
-    };
-
-    Popover.prototype.destroy = function() {
-      this.$element.removeData('popover');
-      this.$element.unbind();
-      this.$element = null;
-      return this;
-    };
-
-    Popover.prototype.option = function() {};
-
-    Popover.prototype._buildPopover = function() {
-      this.$popover.prepend("<div class=\"popover_nipple\"></div>");
-      this.$popover.hide();
-      return this.$popover.addClass("popover");
-    };
-
-    Popover.prototype._bind = function() {
-      var _this = this;
-      $(this.options.pageWrapperElement).bind('click', function(e) {
-        if (_this.isOpen === true) {
-          return _this.close();
-        }
-      });
-      if (this.options.autoOpen === true) {
-        return this.$element.bind('click', function() {
-          if (_this.isOpen === true) {
-            _this.close();
-          } else {
-            _this.open();
-          }
-          return false;
-        });
-      }
-    };
-
-    Popover.prototype._positionPopover = function() {
-      var centerOfButtonFromLeft, centerOfPopoverFromLeft, popoverLeftPos;
-      centerOfButtonFromLeft = this.$element.offset().left + this.$element.outerWidth() / 2;
-      centerOfPopoverFromLeft = this.$popover.outerWidth() / 2;
-      popoverLeftPos = centerOfButtonFromLeft - centerOfPopoverFromLeft;
-      return this.$popover.css("left", popoverLeftPos);
-    };
-
-    Popover.prototype._positionNipple = function() {
-      var $nipple, bottomOfButtonFromTop, centerOfPopoverFromLeft, centerOfnippleFromLeft, nippleLeftPos;
-      centerOfPopoverFromLeft = this.$popover.outerWidth() / 2;
-      bottomOfButtonFromTop = this.$element.offset().top + this.$element.outerHeight() + 10;
-      this.$popover.css("top", bottomOfButtonFromTop);
-      $nipple = this.$popover.find(".popover_nipple");
-      centerOfnippleFromLeft = $nipple.outerWidth() / 2;
-      nippleLeftPos = centerOfPopoverFromLeft - centerOfnippleFromLeft;
-      return $nipple.css("left", nippleLeftPos);
-    };
-
-    return Popover;
-
-  })();
-
-  (function($) {
-    return $.widget.bridge('popover', AA.Popover);
-  })(jQuery);
-
-}).call(this);
-;
-FI"_version;
-F"%12357012813b5a30b4f05996c5fc5a64
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1355137705.695343:@value{	I"length:EFi=I"digest;
+F"%176cadcd9117c35d39f1ab9d12359931I"source;
+FI"=(function(){window.AA.Popover=AA.Popover=function(){function e(e,t){var n;return this.options=e,this.element=t,this.$element=$(this.element),n={fadeInDuration:20,fadeOutDuration:100,autoOpen:!0,pageWrapperElement:"#wrapper",onClickActionItemCallback:null},this.options=$.extend({},n,e),this.$popover=null,this.isOpen=!1,$(this.$element.attr("href")).length>0?this.$popover=$(this.$element.attr("href")):this.$popover=this.$element.next(".popover"),this._buildPopover(),this._bind(),this}return e.prototype.open=function(){return this.isOpen=!0,this.$popover.fadeIn(this.options.fadeInDuration),this._positionPopover(),this._positionNipple(),this},e.prototype.close=function(){return this.isOpen=!1,this.$popover.fadeOut(this.options.fadeOutDuration),this},e.prototype.destroy=function(){return this.$element.removeData("popover"),this.$element.unbind(),this.$element=null,this},e.prototype.option=function(){},e.prototype._buildPopover=function(){return this.$popover.prepend('<div class="popover_nipple"></div>'),this.$popover.hide(),this.$popover.addClass("popover")},e.prototype._bind=function(){var e=this;$(this.options.pageWrapperElement).bind("click",function(t){if(e.isOpen===!0)return e.close()});if(this.options.autoOpen===!0)return this.$element.bind("click",function(){return e.isOpen===!0?e.close():e.open(),!1})},e.prototype._positionPopover=function(){var e,t,n;return e=this.$element.offset().left+this.$element.outerWidth()/2,t=this.$popover.outerWidth()/2,n=e-t,this.$popover.css("left",n)},e.prototype._positionNipple=function(){var e,t,n,r,i;return n=this.$popover.outerWidth()/2,t=this.$element.offset().top+this.$element.outerHeight()+10,this.$popover.css("top",t),e=this.$popover.find(".popover_nipple"),r=e.outerWidth()/2,i=n-r,e.css("left",i)},e}(),function(e){return e.widget.bridge("popover",AA.Popover)}(jQuery)}).call(this);;
+TI"_version;
+F"%9d3c70eaafa5c078636fa81f8e579861

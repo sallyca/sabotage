@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1355083621.375036:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1355137717.08387:@value{I"
 class:EFI"BundledAsset;
 FI"id;
-F"%7d22b500dd41fbe0ce4050cd2b48f7f8I"logical_path;
+F"%236d52f8fb21de2b0525008a9e98979fI"logical_path;
 F"jquery.jsI"pathname;
 F"g/Users/macbook/.rvm/gems/ruby-1.9.3-p0/gems/jquery-rails-2.1.4/vendor/assets/javascripts/jquery.jsI"content_type;
 FI"application/javascript;
@@ -9490,5 +9490,5 @@ F"g/Users/macbook/.rvm/gems/ruby-1.9.3-p0/gems/jquery-rails-2.1.4/vendor/assets/
 mtime;
 FIu:	Time–,Ä  ‡»:@_zoneI"MSK;
 T:offseti@8I"hexdigest;
-F"%599ff9047763976e0f7c0c7e0b206fe3I"_version;
-F"%0868aba5d4b750d3a9421721ea3d9b9c
+F"%9c5bbc5fd09bba1d740229f3d8ce9215I"_version;
+F"%df7525e917401704ef453cb56bf16697

@@ -24,7 +24,7 @@ gem 'coffee-rails', "~> 3.1.0"
 gem 'uglifier'
 
 
-gem 'sass-rails'
+gem 'sass-rails', "3.1.4"
 
 gem 'jquery-rails'
 gem 'haml'

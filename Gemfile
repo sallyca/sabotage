@@ -7,7 +7,7 @@ gem 'rails', '3.1.0'
 
 
 gem 'nokogiri'
-gem 'activeadmin'
+gem 'activeadmin', :git => "git://github.com/gregbell/active_admin.git"
 gem 'dragonfly'
 gem 'rack-cache', :require => 'rack/cache'
 gem 'rack-rewrite'
@@ -19,12 +19,12 @@ gem 'has_unique_slug'
 
 # Gems used only for assets and not required
 # in production environments by default.
-group :assets do
-  gem 'coffee-rails', "~> 3.1.0"
-  gem 'uglifier'
-end
 
-gem 'sass-rails', "  ~> 3.1.0"
+gem 'coffee-rails', "~> 3.1.0"
+gem 'uglifier'
+
+
+gem 'sass-rails', "3.1.4"
 
 gem 'jquery-rails'
 gem 'haml'

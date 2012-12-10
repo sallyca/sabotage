@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1355140401.588297:@value{	I"length:EFièI"digest;
 F"%6a30ee9a077e064fdfbdfa082b9ab951I"source;
 FI"è(function() {
@@ -53,3 +54,10 @@ FI"è(function() {
 ;
 FI"_version;
 F"%6817058792fec6096ed5949eaad9fa9b
+=======
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1355137706.035496:@value{	I"length:EFiI"digest;
+F"%2a599c8b131756e4c92a0f027dbc04f3I"source;
+FI"(function(){var e={}.hasOwnProperty,t=function(t,n){function i(){this.constructor=t}for(var r in n)e.call(n,r)&&(t[r]=n[r]);return i.prototype=n.prototype,t.prototype=new i,t.__super__=n.prototype,t};window.AA.TableCheckboxToggler=AA.TableCheckboxToggler=function(e){function n(){return n.__super__.constructor.apply(this,arguments)}return t(n,e),n.prototype._init=function(){return n.__super__._init.apply(this,arguments)},n.prototype._bind=function(){var e=this;return n.__super__._bind.apply(this,arguments),this.$container.find("tbody").find("td").bind("click",function(t){if(t.target.type!=="checkbox")return e._didClickCell(t.target)})},n.prototype._didChangeCheckbox=function(e){var t;return n.__super__._didChangeCheckbox.apply(this,arguments),t=$(e).parents("tr"),e.checked?t.addClass("selected"):t.removeClass("selected")},n.prototype._didClickCell=function(e){return $(e).parent("tr").find(":checkbox").click()},n}(AA.CheckboxToggler),function(e){return e.widget.bridge("tableCheckboxToggler",AA.TableCheckboxToggler)}(jQuery)}).call(this);;
+TI"_version;
+F"%7bb6eb14aa060f81ba892c9f78b8dba5
+>>>>>>> 913b9ce16ebd0f89611a086a10da6c0b75ea4bec

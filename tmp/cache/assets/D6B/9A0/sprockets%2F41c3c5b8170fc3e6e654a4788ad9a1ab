@@ -1,9 +1,8 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1355084098.732801:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1355137703.768585:@value{I"
 class:EFI"StaticAsset;
 FI"id;
-F"%6377193387524d7c6e3c2c8801395dd8I"logical_path;
-FI"like.gif;
-TI"pathname;
+F"%216156bbb31ea4ad7812fe0b8158586dI"logical_path;
+F"like.gifI"pathname;
 FI"%$root/app/assets/images/like.gif;
 FI"content_type;
 FI"image/gif;
@@ -13,5 +12,5 @@ FI"2012-12-04T10:28:01+04:00;
 FI"length;
 FI"326;
 FI"digest;
-F"%5c093653f404c599c036142eea3c13b8I"_version;
-F"%0868aba5d4b750d3a9421721ea3d9b9c
+F"%10101fb0f6fdc77c0b6380d34a5beab4I"_version;
+F"%df7525e917401704ef453cb56bf16697

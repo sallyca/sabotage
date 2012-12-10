@@ -14,7 +14,7 @@ Bookmate::Application.routes.draw do
     get 'random_quotes', :on => :collection
   end
 
-  get 'register' => 'users#new', :as => :register
+  get 'addmeplease' => 'users#new', :as => :addmeplease
   get 'login' => 'sessions#new', :as => :login
   get 'logout' => 'sessions#destroy', :as => :logout
 

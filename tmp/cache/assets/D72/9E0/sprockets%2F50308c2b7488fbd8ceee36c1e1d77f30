@@ -1,25 +1,27 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1355140400.3828008:@value{	I"length:EFi¾	I"digest;
-F"%3f761ec8f24b60092186155c0f1f9510I"source;
-FI"¾	/* line 1, ../../app/assets/stylesheets/_global.scss */
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1355160992.7109041:@value{	I"length:EFi~
+I"digest;
+F"%e52a14285da70c87ac5b32d84cd0252cI"source;
+FI"~
+/* line 1, /Users/macbook/Sites/sabotage/app/assets/stylesheets/_global.scss */
 .centered {
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 6, ../../app/assets/stylesheets/_global.scss */
+/* line 6, /Users/macbook/Sites/sabotage/app/assets/stylesheets/_global.scss */
 .submit {
   margin-top: 10px;
   margin-left: 10px;
 }
 
-/* line 11, ../../app/assets/stylesheets/_global.scss */
+/* line 11, /Users/macbook/Sites/sabotage/app/assets/stylesheets/_global.scss */
 #about > p {
   font-size: 18px;
   font-color: #FF3399;
   margin-top: 20px;
 }
 
-/* line 16, ../../app/assets/stylesheets/_global.scss */
+/* line 16, /Users/macbook/Sites/sabotage/app/assets/stylesheets/_global.scss */
 .clearfix:before, .clearfix:after {
   content: "&nbsp;";
   display: block;
@@ -27,19 +29,19 @@ FI"¾	/* line 1, ../../app/assets/stylesheets/_global.scss */
   visibility: hidden;
 }
 
-/* line 19, ../../app/assets/stylesheets/_global.scss */
+/* line 19, /Users/macbook/Sites/sabotage/app/assets/stylesheets/_global.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 20, ../../app/assets/stylesheets/_global.scss */
+/* line 20, /Users/macbook/Sites/sabotage/app/assets/stylesheets/_global.scss */
 .clearfix {
   zoom: 1;
 }
 
-/* line 24, ../../app/assets/stylesheets/_global.scss */
+/* line 24, /Users/macbook/Sites/sabotage/app/assets/stylesheets/_global.scss */
 .red-dressed {
-  border: 1px solid #df0909;
+  border: 1px solid #616261;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -50,33 +52,33 @@ FI"¾	/* line 1, ../../app/assets/stylesheets/_global.scss */
   text-align: center;
   color: #FFFFFF;
   background-color: #f62b2b;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f62b2b), color-stop(100%, #d20202));
-  background-image: -webkit-linear-gradient(top, #f62b2b, #d20202);
-  background-image: -moz-linear-gradient(top, #f62b2b, #d20202);
-  background-image: -ms-linear-gradient(top, #f62b2b, #d20202);
-  background-image: -o-linear-gradient(top, #f62b2b, #d20202);
-  background-image: linear-gradient(top, #f62b2b, #d20202);
-  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#f62b2b, endColorstr=#d20202);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7d7e7d), color-stop(100%, #0e0e0e));
+  background-image: -webkit-linear-gradient(top, #7d7e7d, #0e0e0e);
+  background-image: -moz-linear-gradient(top, #7d7e7d, #0e0e0e);
+  background-image: -ms-linear-gradient(top, #7d7e7d, #0e0e0e);
+  background-image: -o-linear-gradient(top, #7d7e7d, #0e0e0e);
+  background-image: linear-gradient(top, #7d7e7d, #0e0e0e);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#7d7e7d, endColorstr=#0e0e0e);
   padding: 5px 10px;
   text-decoration: none !important;
   color: white !important;
   margin-left: 10px;
 }
 
-/* line 38, ../../app/assets/stylesheets/_global.scss */
+/* line 38, /Users/macbook/Sites/sabotage/app/assets/stylesheets/_global.scss */
 .red-dressed:hover {
-  border: 1px solid #b30808;
+  border: 1px solid #4a4b4a;
   background-color: #e40a0a;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e40a0a), color-stop(100%, #9f0202));
-  background-image: -webkit-linear-gradient(top, #e40a0a, #9f0202);
-  background-image: -moz-linear-gradient(top, #e40a0a, #9f0202);
-  background-image: -ms-linear-gradient(top, #e40a0a, #9f0202);
-  background-image: -o-linear-gradient(top, #e40a0a, #9f0202);
-  background-image: linear-gradient(top, #e40a0a, #9f0202);
-  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#e40a0a, endColorstr=#9f0202);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #646464), color-stop(100%, #282828));
+  background-image: -webkit-linear-gradient(top, #646464, #282828);
+  background-image: -moz-linear-gradient(top, #646464, #282828);
+  background-image: -ms-linear-gradient(top, #646464, #282828);
+  background-image: -o-linear-gradient(top, #646464, #282828);
+  background-image: linear-gradient(top, #646464, #282828);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#646464, endColorstr=#282828);
   color: white;
   text-decoration: none;
 }
 ;
 FI"_version;
-F"%aae49064bcb68eec18f5591e14399151
+F"%2be414b28849bf18a648f6602908ed22

@@ -1,30 +1,30 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1355140411.977267:@value{	I"length:EFi.âI"digest;
-F"%34f744052e6ab20a1cafe20564fc0a68I"source;
-FI".â/*
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1355160992.684587:@value{	I"length:EFiäI"digest;
+F"%edd8f5b532a7e8e982a5cf4a66241725I"source;
+FI"ä/*
  * This is a manifest file that'll automatically include all the stylesheets available in this directory
  * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
  * the top of the compiled file, but it's generally better to create a new file per style scope.
 */
-/* line 1, ../../app/assets/stylesheets/_global.scss */
+/* line 1, /Users/macbook/Sites/sabotage/app/assets/stylesheets/_global.scss */
 .centered {
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 6, ../../app/assets/stylesheets/_global.scss */
+/* line 6, /Users/macbook/Sites/sabotage/app/assets/stylesheets/_global.scss */
 .submit {
   margin-top: 10px;
   margin-left: 10px;
 }
 
-/* line 11, ../../app/assets/stylesheets/_global.scss */
+/* line 11, /Users/macbook/Sites/sabotage/app/assets/stylesheets/_global.scss */
 #about > p {
   font-size: 18px;
   font-color: #FF3399;
   margin-top: 20px;
 }
 
-/* line 16, ../../app/assets/stylesheets/_global.scss */
+/* line 16, /Users/macbook/Sites/sabotage/app/assets/stylesheets/_global.scss */
 .clearfix:before, .clearfix:after {
   content: "&nbsp;";
   display: block;
@@ -32,19 +32,19 @@ FI".â/*
   visibility: hidden;
 }
 
-/* line 19, ../../app/assets/stylesheets/_global.scss */
+/* line 19, /Users/macbook/Sites/sabotage/app/assets/stylesheets/_global.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 20, ../../app/assets/stylesheets/_global.scss */
+/* line 20, /Users/macbook/Sites/sabotage/app/assets/stylesheets/_global.scss */
 .clearfix {
   zoom: 1;
 }
 
-/* line 24, ../../app/assets/stylesheets/_global.scss */
+/* line 24, /Users/macbook/Sites/sabotage/app/assets/stylesheets/_global.scss */
 .red-dressed {
-  border: 1px solid #df0909;
+  border: 1px solid #616261;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -55,30 +55,30 @@ FI".â/*
   text-align: center;
   color: #FFFFFF;
   background-color: #f62b2b;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f62b2b), color-stop(100%, #d20202));
-  background-image: -webkit-linear-gradient(top, #f62b2b, #d20202);
-  background-image: -moz-linear-gradient(top, #f62b2b, #d20202);
-  background-image: -ms-linear-gradient(top, #f62b2b, #d20202);
-  background-image: -o-linear-gradient(top, #f62b2b, #d20202);
-  background-image: linear-gradient(top, #f62b2b, #d20202);
-  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#f62b2b, endColorstr=#d20202);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7d7e7d), color-stop(100%, #0e0e0e));
+  background-image: -webkit-linear-gradient(top, #7d7e7d, #0e0e0e);
+  background-image: -moz-linear-gradient(top, #7d7e7d, #0e0e0e);
+  background-image: -ms-linear-gradient(top, #7d7e7d, #0e0e0e);
+  background-image: -o-linear-gradient(top, #7d7e7d, #0e0e0e);
+  background-image: linear-gradient(top, #7d7e7d, #0e0e0e);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#7d7e7d, endColorstr=#0e0e0e);
   padding: 5px 10px;
   text-decoration: none !important;
   color: white !important;
   margin-left: 10px;
 }
 
-/* line 38, ../../app/assets/stylesheets/_global.scss */
+/* line 38, /Users/macbook/Sites/sabotage/app/assets/stylesheets/_global.scss */
 .red-dressed:hover {
-  border: 1px solid #b30808;
+  border: 1px solid #4a4b4a;
   background-color: #e40a0a;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e40a0a), color-stop(100%, #9f0202));
-  background-image: -webkit-linear-gradient(top, #e40a0a, #9f0202);
-  background-image: -moz-linear-gradient(top, #e40a0a, #9f0202);
-  background-image: -ms-linear-gradient(top, #e40a0a, #9f0202);
-  background-image: -o-linear-gradient(top, #e40a0a, #9f0202);
-  background-image: linear-gradient(top, #e40a0a, #9f0202);
-  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#e40a0a, endColorstr=#9f0202);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #646464), color-stop(100%, #282828));
+  background-image: -webkit-linear-gradient(top, #646464, #282828);
+  background-image: -moz-linear-gradient(top, #646464, #282828);
+  background-image: -ms-linear-gradient(top, #646464, #282828);
+  background-image: -o-linear-gradient(top, #646464, #282828);
+  background-image: linear-gradient(top, #646464, #282828);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#646464, endColorstr=#282828);
   color: white;
   text-decoration: none;
 }
@@ -4225,23 +4225,23 @@ div.field, div.actions {
   font-size: 12px;
   list-style: square;
 }
-/* line 4, ../../app/assets/stylesheets/stickers.css.scss */
+/* line 4, /Users/macbook/Sites/sabotage/app/assets/stylesheets/stickers.css.scss */
 .sticker-back {
   height: 200px;
   width: 258px;
   border: 1px solid #999;
-  background-color: #ffbbea;
+  background-color: #FFCCCC;
   margin: 10px 15px;
   position: relative;
 }
 
-/* line 13, ../../app/assets/stylesheets/stickers.css.scss */
+/* line 13, /Users/macbook/Sites/sabotage/app/assets/stylesheets/stickers.css.scss */
 #new_sticker_form {
   width: 500px;
   height: 500px;
 }
 
-/* line 18, ../../app/assets/stylesheets/stickers.css.scss */
+/* line 18, /Users/macbook/Sites/sabotage/app/assets/stylesheets/stickers.css.scss */
 .color-picker {
   background-image: url("/assets/color.png");
   width: 16px;
@@ -4249,31 +4249,31 @@ div.field, div.actions {
   cursor: pointer;
 }
 
-/* line 25, ../../app/assets/stylesheets/stickers.css.scss */
+/* line 25, /Users/macbook/Sites/sabotage/app/assets/stylesheets/stickers.css.scss */
 #sticker-quote-complete {
   margin-left: auto;
   margin-right: auto;
   width: 400px;
 }
 
-/* line 31, ../../app/assets/stylesheets/stickers.css.scss */
+/* line 31, /Users/macbook/Sites/sabotage/app/assets/stylesheets/stickers.css.scss */
 #sticker-board {
   width: 1000px;
   margin: 20px 0 20px;
 }
 
-/* line 36, ../../app/assets/stylesheets/stickers.css.scss */
+/* line 36, /Users/macbook/Sites/sabotage/app/assets/stylesheets/stickers.css.scss */
 .izzyColor {
   background-color: #ffbbea;
   border: 0;
 }
 
-/* line 41, ../../app/assets/stylesheets/stickers.css.scss */
+/* line 41, /Users/macbook/Sites/sabotage/app/assets/stylesheets/stickers.css.scss */
 .sticker {
   float: left;
 }
 
-/* line 45, ../../app/assets/stylesheets/stickers.css.scss */
+/* line 45, /Users/macbook/Sites/sabotage/app/assets/stylesheets/stickers.css.scss */
 .sticker-back .sticker-color {
   position: absolute;
   bottom: 0;
@@ -4281,7 +4281,7 @@ div.field, div.actions {
   padding: 5px;
 }
 
-/* line 50, ../../app/assets/stylesheets/stickers.css.scss */
+/* line 50, /Users/macbook/Sites/sabotage/app/assets/stylesheets/stickers.css.scss */
 .sticker-back .sticker-text {
   font-family: Georgia, serif;
   font-size: 15px;
@@ -4290,7 +4290,7 @@ div.field, div.actions {
   width: 200px;
 }
 
-/* line 58, ../../app/assets/stylesheets/stickers.css.scss */
+/* line 58, /Users/macbook/Sites/sabotage/app/assets/stylesheets/stickers.css.scss */
 .sticker-back .trash {
   background-image: url("/assets/icon_trash.png");
   width: 8px;
@@ -4299,14 +4299,14 @@ div.field, div.actions {
   padding: 5px;
 }
 
-/* line 66, ../../app/assets/stylesheets/stickers.css.scss */
+/* line 66, /Users/macbook/Sites/sabotage/app/assets/stylesheets/stickers.css.scss */
 .sticker-back .trash a {
   display: block;
   width: 10px;
   height: 10px;
 }
 
-/* line 72, ../../app/assets/stylesheets/stickers.css.scss */
+/* line 72, /Users/macbook/Sites/sabotage/app/assets/stylesheets/stickers.css.scss */
 .green {
   background-color: #40f6ab;
 }
@@ -4776,4 +4776,4 @@ div.token-input-dropdown ul li.token-input-selected-dropdown-item {
 }
 ;
 FI"_version;
-F"%fa37593ad5fe361a86b494bf8b15140d
+F"%362a0b91576207b7c99209694a36994c

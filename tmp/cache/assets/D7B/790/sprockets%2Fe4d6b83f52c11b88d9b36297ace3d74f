@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1355140397.937493:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1355146588.089192:@value{I"
 class:EFI"BundledAsset;
 FI"id;
-F"%070d403641e4b1814311e1bb99f4bc50I"logical_path;
+F"%b78229e23e3c8451a64d714cff580ffdI"logical_path;
 F"fancybox.jsI"pathname;
 FI"-$root/app/assets/javascripts/fancybox.js;
 FI"content_type;

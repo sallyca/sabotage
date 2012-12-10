@@ -1,0 +1,15 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1355137704.013045:@value{I"
+class:EFI"StaticAsset;
+FI"id;
+F"%c309169548a8195a5e76bd74c7e3b52aI"logical_path;
+F",active_admin/nested_menu_arrow_dark.gifI"pathname;
+F"|/Users/macbook/.rvm/gems/ruby-1.9.3-p0/gems/activeadmin-0.5.1/app/assets/images/active_admin/nested_menu_arrow_dark.gifI"content_type;
+FI"image/gif;
+FI"
+mtime;
+FI"2012-12-09T23:59:34+04:00;
+FI"length;
+FI"70;
+FI"digest;
+F"%025befde04cef279ed7a7263cee36997I"_version;
+F"%df7525e917401704ef453cb56bf16697

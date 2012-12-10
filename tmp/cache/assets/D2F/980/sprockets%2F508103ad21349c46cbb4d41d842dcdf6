@@ -1,22 +1,22 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1355140400.946965:@value{	I"length:EFiöI"digest;
-F"%cdc36edef3e1ba70c9e0023b13b131bdI"source;
-FI"ö/* line 4, ../../app/assets/stylesheets/stickers.css.scss */
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1355160653.1892722:@value{	I"length:EFiI"digest;
+F"%f489babb3aa7048a33acc93f68638a6fI"source;
+FI"/* line 4, /Users/macbook/Sites/sabotage/app/assets/stylesheets/stickers.css.scss */
 .sticker-back {
   height: 200px;
   width: 258px;
   border: 1px solid #999;
-  background-color: #ffbbea;
+  background-color: #FFCCCC;
   margin: 10px 15px;
   position: relative;
 }
 
-/* line 13, ../../app/assets/stylesheets/stickers.css.scss */
+/* line 13, /Users/macbook/Sites/sabotage/app/assets/stylesheets/stickers.css.scss */
 #new_sticker_form {
   width: 500px;
   height: 500px;
 }
 
-/* line 18, ../../app/assets/stylesheets/stickers.css.scss */
+/* line 18, /Users/macbook/Sites/sabotage/app/assets/stylesheets/stickers.css.scss */
 .color-picker {
   background-image: url("/assets/color.png");
   width: 16px;
@@ -24,31 +24,31 @@ FI"ö/* line 4, ../../app/assets/stylesheets/stickers.css.scss */
   cursor: pointer;
 }
 
-/* line 25, ../../app/assets/stylesheets/stickers.css.scss */
+/* line 25, /Users/macbook/Sites/sabotage/app/assets/stylesheets/stickers.css.scss */
 #sticker-quote-complete {
   margin-left: auto;
   margin-right: auto;
   width: 400px;
 }
 
-/* line 31, ../../app/assets/stylesheets/stickers.css.scss */
+/* line 31, /Users/macbook/Sites/sabotage/app/assets/stylesheets/stickers.css.scss */
 #sticker-board {
   width: 1000px;
   margin: 20px 0 20px;
 }
 
-/* line 36, ../../app/assets/stylesheets/stickers.css.scss */
+/* line 36, /Users/macbook/Sites/sabotage/app/assets/stylesheets/stickers.css.scss */
 .izzyColor {
   background-color: #ffbbea;
   border: 0;
 }
 
-/* line 41, ../../app/assets/stylesheets/stickers.css.scss */
+/* line 41, /Users/macbook/Sites/sabotage/app/assets/stylesheets/stickers.css.scss */
 .sticker {
   float: left;
 }
 
-/* line 45, ../../app/assets/stylesheets/stickers.css.scss */
+/* line 45, /Users/macbook/Sites/sabotage/app/assets/stylesheets/stickers.css.scss */
 .sticker-back .sticker-color {
   position: absolute;
   bottom: 0;
@@ -56,7 +56,7 @@ FI"ö/* line 4, ../../app/assets/stylesheets/stickers.css.scss */
   padding: 5px;
 }
 
-/* line 50, ../../app/assets/stylesheets/stickers.css.scss */
+/* line 50, /Users/macbook/Sites/sabotage/app/assets/stylesheets/stickers.css.scss */
 .sticker-back .sticker-text {
   font-family: Georgia, serif;
   font-size: 15px;
@@ -65,7 +65,7 @@ FI"ö/* line 4, ../../app/assets/stylesheets/stickers.css.scss */
   width: 200px;
 }
 
-/* line 58, ../../app/assets/stylesheets/stickers.css.scss */
+/* line 58, /Users/macbook/Sites/sabotage/app/assets/stylesheets/stickers.css.scss */
 .sticker-back .trash {
   background-image: url("/assets/icon_trash.png");
   width: 8px;
@@ -74,17 +74,17 @@ FI"ö/* line 4, ../../app/assets/stylesheets/stickers.css.scss */
   padding: 5px;
 }
 
-/* line 66, ../../app/assets/stylesheets/stickers.css.scss */
+/* line 66, /Users/macbook/Sites/sabotage/app/assets/stylesheets/stickers.css.scss */
 .sticker-back .trash a {
   display: block;
   width: 10px;
   height: 10px;
 }
 
-/* line 72, ../../app/assets/stylesheets/stickers.css.scss */
+/* line 72, /Users/macbook/Sites/sabotage/app/assets/stylesheets/stickers.css.scss */
 .green {
   background-color: #40f6ab;
 }
 ;
 FI"_version;
-F"%37942934fa3b2769a4881866342602bc
+F"%779eb28bb56a5dec73fac33a23be1b4b

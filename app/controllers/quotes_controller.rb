@@ -1,6 +1,7 @@
 class QuotesController < ApplicationController
   # GET /quotes
   # GET /quotes.json
+  before_filter :require_login, :only => [:new, :edit, :destroy]
 
   respond_to :html
 
